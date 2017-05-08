@@ -32,7 +32,7 @@ Cloud Service (Google Compute Engine)
 
 - - -
 
-### 개발환경
+## 개발환경
 * 운영체제 : Ubuntu 16.04.2
 * 언어 : Python 2.7
 * 사용 라이브러리 : BeautifulSoup, Scrapy
@@ -58,3 +58,70 @@ __가상환경은 프로젝트의 충돌을 방지__
 
 - - -
 
+## Beautiful Soup VS Scrapy
+* Beautiful Soup
+   * html문서에서 원하는 정보를 손쉽게 가져올 수 있는 방법을 제공.
+   * 자동으로 인코딩을 유니코드로 변환해서 UTF-8로 출력.
+   * lxml, html5lib 파서를 이용함
+   * http://www.crummpy.com/software/BeautifulSoup/bs4/doc/
+
+* Scrapy
+   * web scraper framework
+   * 다양한 selector 지원
+   * 파이프 라인(데이터 필터링)
+   * 로깅(데이터 잘 들어오는지)
+   * 이메일(데이터 들어왔을때 이메일 전송)
+   * http://doc.scrapy.org/en/0.24/intro/tutorial.html
+
+
+* Beautiful Soup은 HTML의 문서를 가져와서 파싱을 해주는 파서의 역할이 강하며,<br/>
+  문서를 가져와서 네비게이션하는 기능이나 자동으로 인코딩을 유니코드로 변환해서 UTF-8로 출력.
+
+* Scrapy는 Web에서 데이터를 들고와서 하는 전체적 내용을 프레임워크 형태로 제작한 라이브러리.<br/>
+  프레임워크라 다양한 기능지원(파이프라인, 로깅, 이메일)
+
+* Beautiful Soup에도 파이프라인, 로깅, 이메일 기능이 있는데, 직접 구현해야함.
+
+
+* Beautiful Soup 레퍼런스 일부 발췌
+<pre>
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(html_doc, 'html.parser')
+
+soup.title
+<title>The Dormouse's story</title>
+
+soup.title.name
+u`title`
+
+soup.title.string
+The Dormouse's story
+
+soup.title.parent.name
+u`head`
+
+soup.a
+<a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>
+
+soup.find_all('a') : 가장 많이 쓰이는 명령어.
+[<a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>,
+  <a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>,
+  <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>]
+
+soup.find(id="link3")
+<a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>
+
+soup.find_all(href=re.compile("elsie"), id='link1')
+[<a class="sister" href="http://example.com/elsie" id="link1">three</a>]
+
+data_soup.find_all(attrs={"data-foo":"value"})
+[<div data-foo="value">foo!</div>]
+</pre>
+
+__태그 이름이나 css 속성, 정규식을 통해서도 데이터를 수집하는 것이 가능함.__
+
+__Scrapy의 경우, 데이터를 들고올때 클래스형태로 만들 수 있습니다.__
+* items.py 웹환경에서 title, 링크, 글을 쓴 저자를 가져오고자 할때, Item에서의 지정이 가능
+* pipelines.py 어떤 Scrapy를 통해 데이터를 들고와서 그 데이터에 대해 후처리를 하고 싶을때, 데이터 필터링이나 데이터베이스에 입력하고 싶을때
+* settings.py spider라고 부르는데, spider에 대한 설정들이 들어있음.
+* spiders 폴더 안에는 실제 불러오고싶은 내용에 대한 코드가 위치한다.
