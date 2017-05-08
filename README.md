@@ -40,7 +40,7 @@ Cloud Service (Google Compute Engine)
 * 기타 : virtualenv, virtualenvwrapper, docker
    * 버전 맞춰주는 것도 일이여서 가상환경에 알맞은 패키지 버전 설치하면 깔끔하게 파이썬 쓸수 있음
 
-__크롤링은 주로 링크나 텍스트를 복사__
+__크롤링은 주로 링크나 텍스트를 복사__<br/>
 __우분투를 쓰는 이유는, 사용자가 많아서 여러가지 반영이 쉽게 됨__
 
 * Beautiful Soup 설치 전 필요한 패키지 있음
