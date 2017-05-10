@@ -132,3 +132,52 @@ __scrapy crawl "스파이더명"__
 __스파이더는 여러개 만들어서 동시 실행이 가능.__
 
 __크론탭을 이용해서 크롤링 관련 배치작업 설정할 수 있음.__
+
+
+- - -
+
+# Scrapy를 이용해서 웹데이터를 크롤링하는 방법
+Scrapy에 대한 전반적인 이야기, 사이트에서 실제 데이터를 가져오는 것까지
+
+
+## 목차
+1. 웹 크롤링 이슈
+   * 웹데이터 저작권
+   * 사이트의 크롤링 정책
+2. scrapy 구조
+3. scrapy
+   * spiders
+   * selector
+   * pipline
+   * logging
+4. 웹사이트 크롤링 실정
+   * clien.net
+   * bobaedraem.co.kr
+
+
+## 저작권
+* 저작권법 허용
+   * 단순 링크 - 사이트 대표 주소를 링크
+   * 직접 링크 - 특정 게시물을 링크
+* 저작권법 위반
+   * 프레임 링크 - 저작물의 일부를 홈페이지에 표시
+   * 임베드 링크 - 저작물 전체를 홈페이지에 표시
+
+
+## 로봇 배제 표준(robots.txt)
+* 웹사이트에 로봇이 접근하는 것을 방지하기 위한 규약
+* 예제
+   * 모두 허용
+     > User-agent: *
+     > Allow: /
+   * 모두 차단
+     > User-agent: *
+     > Disallow: /
+   * 다양한 조합
+     > User-agent: googlebot  (googlebot 로봇만 적용)
+     > Disallow: /private/    (이 디렉토리를 접근 차단)
+     > User-agent: googlebot-news (googlebot-news 로봇만 적용)
+     > Disallow: /            (모든 디렉토리를 접근 차단한다)
+     > User-agent: *          (모든 로봇 적용)
+     > Disallow: /something/  (이 디렉토리를 접근 차단)
+* 실제 사이트의 robots.txt: 뽐뿌, 클리앙, SLR 클럽
