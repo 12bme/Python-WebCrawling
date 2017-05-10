@@ -336,6 +336,6 @@ ITEM_PIPLINES = {
    2. logging.ERROR - for regular errors
    3. logging.WARNING - for warning messages
    4. logging.INFO - for informational messages
-   5. logging.DEBUG - for debugging messages (lowest severity)
+   5. logging.DEBUG - for debugging messages(lowest severity)
 
 
