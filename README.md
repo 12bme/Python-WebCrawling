@@ -181,3 +181,49 @@ Scrapy에 대한 전반적인 이야기, 사이트에서 실제 데이터를 가
      > User-agent: *          (모든 로봇 적용)
      > Disallow: /something/  (이 디렉토리를 접근 차단)
 * 실제 사이트의 robots.txt: 뽐뿌, 클리앙, SLR 클럽
+   * 중고시장 관련된 대부분의 사이트는 로그인한 사용자만 접근허용 가능하니,
+   * 왠만해서 그런 크롤링안하는 것이 좋음
+   * 크롤링할지 말지에 대한 선택은 robots.txt 파일 내용 확인
+
+#### 뽐뿌 robots.txt 예제(크롤링할때 딜레이를 1초 주는것을 권고)
+<pre>
+User-agent: *
+Crawl-delay: 1
+Disallow: /include/
+Disallow: /zboard/view.php?id=market
+Disallow: /zboard/view.php?id=market_phone
+Disallow: /zboard/view.php?id=market_social
+Disallow: /zboard/view.php?id=cmarket
+Disallow: /zboard/view.php?id=onmarket
+Disallow: /zboard/view.php?id=market_story
+Disallow: /zboard/view.php?id=gonggu
+Disallow: /zboard/view.php?id=my
+Disallow: /search_bbs.php
+Disallow: /zboard/view_info2.php
+Disallow: /bookmark/
+Disallow: /chat
+</pre> 
+
+#### slrclub robots.txt 예제(User-Agent 전체 사이트 접근을 막고 있음)
+<pre>
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot*
+Disallow:
+User-agent: Mediapartners-Google*
+Disallow: 
+User-agent: ZumBot
+Disallow: 
+User-agent: Yeti
+Disallow: 
+User-agent: daumoa
+Disallow: 
+User-agent: KaBot
+Disallow: 
+User-Agent:*
+Disallow:/ 
+</pre>
+
+
+
+
