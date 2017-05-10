@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://kldp.org/files/bluemarine_favicon.png" type="image/png" />
+  <title>공부 | KLDP</title>
+  <style type="text/css" media="all">
+@import url("https://kldp.org/modules/system/system.base.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.menus.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.messages.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.theme.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/modules/aggregator/aggregator.css?om3fo0");
+@import url("https://kldp.org/modules/book/book.css?om3fo0");
+</style>
+<style type="text/css" media="screen">
+@import url("https://kldp.org/sites/all/modules/codefilter/codefilter.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/modules/comment/comment.css?om3fo0");
+@import url("https://kldp.org/modules/field/theme/field.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/google_cse/google_cse.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/logintoboggan/logintoboggan.css?om3fo0");
+@import url("https://kldp.org/modules/node/node.css?om3fo0");
+@import url("https://kldp.org/modules/poll/poll.css?om3fo0");
+@import url("https://kldp.org/modules/search/search.css?om3fo0");
+@import url("https://kldp.org/modules/user/user.css?om3fo0");
+@import url("https://kldp.org/modules/forum/forum.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/views/css/views.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/modules/ctools/css/ctools.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/geshifilter/geshifilter.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/css/hybridauth.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/css/hybridauth.modal.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/plugins/icon_pack/hybridauth_24/hybridauth_24.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/html-reset.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/cti-flex-style.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/layout.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/color-schemes.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/local.css?om3fo0");
+</style>
+<style type="text/css" media="print">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/print.css?om3fo0");
+</style>
+
+<!--[if lte IE 7]>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/ie7.css?om3fo0");
+</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/ie6.css?om3fo0");
+</style>
+<![endif]-->
+  <script type="text/javascript" src="https://kldp.org/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_CC-zfeuQHcDhFtVRuKW53h30TL7j_105J32Nz8b8R38.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_D2lC74xVx_pnpKZjHrtkNTqtTD98ansARHlvb6k4wc8.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_kQBdNsim5gc9KI52xHLz7I-g65t-8my_AHKJulbbTlM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cti_flex","theme_token":"jX8p-Fv0MgMFFwdUau7QhOrybu7GArL3cywjPPt5IKA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/codefilter\/codefilter.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"public:\/\/languages\/ko_A8kQKKBLpEkBQhwaAVX1-IH5yAk4PUr94ATGXCB8aSY.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.modal.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.onclick.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/codefilter\/codefilter.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/geshifilter\/geshifilter.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.modal.css":1,"sites\/all\/modules\/hybridauth\/plugins\/icon_pack\/hybridauth_24\/hybridauth_24.css":1,"sites\/all\/themes\/cti_flex\/css\/html-reset.css":1,"sites\/all\/themes\/cti_flex\/css\/cti-flex-style.css":1,"sites\/all\/themes\/cti_flex\/css\/wireframes.css":1,"sites\/all\/themes\/cti_flex\/css\/layout.css":1,"sites\/all\/themes\/cti_flex\/css\/color-schemes.css":1,"sites\/all\/themes\/cti_flex\/css\/local.css":1,"sites\/all\/themes\/cti_flex\/css\/print.css":1,"sites\/all\/themes\/cti_flex\/css\/ie7.css":1,"sites\/all\/themes\/cti_flex\/css\/ie6.css":1}},"googleCSE":{"cx":"partner-pub-6651292044448473:jz430d1s80g","language":"","resultsWidth":600,"domain":"www.google.com"},"urlIsAjaxTrusted":{"\/forum\/4":true,"\/forum\/4?destination=forum\/4":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-forum page-forum- page-forum-4 section-forum fixed-layout full-background black_bg black_accent font-family-notokr font-size-12 none" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page" ">
+
+  <div id="header"><div class="section clearfix">
+
+          <h2 class="element-invisible">부 메뉴</h2><ul id="secondary-menu" class="links inline clearfix"><li class="menu-94 first"><a href="https://wiki.kldp.org/wiki.php/KLDP" title="">about</a></li>
+<li class="menu-96"><a href="/contact">contact</a></li>
+<li class="menu-95 last"><a href="http://wiki.kldp.org/wiki.php/DrupalHandbook">help</a></li>
+</ul>    
+          <a href="/" title="홈" rel="home" id="logo"><img src="https://kldp.org/files/bluemarine_logo.png" alt="홈" /></a>
+    
+          <div id="name-and-slogan">
+                              <div id="site-name"><strong>
+              <a href="/" title="홈" rel="home"><span>KLDP</span></a>
+            </strong></div>
+                  
+                  <div id="site-slogan">Open Source, Geek, IT...</div>
+              </div><!-- /#name-and-slogan -->
+    
+    
+  </div></div><!-- /.section, /#header -->
+
+  <div id="main-wrapper"><div id="main" class="clearfix with-navigation">
+
+    <div id="content" class="column"><div class="section">
+            <div class="breadcrumb"><h2 class="element-invisible">현재 위치</h2><a href="/">홈</a> ›› <a href="/forum">Forums</a></div>      <a id="main-content"></a>
+                    <h1 class="title" id="page-title">공부</h1>
+                                <div class="tabs"></div>
+                          <ul class="action-links"><li>포럼에 새로운 글을 작성하려면 <a href="/user/login?destination=forum/4">로그인</a>하세요.</li>
+</ul>
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system first last odd">
+
+      
+  <div class="content">
+    <div id="forum">
+  <table id="forum-4">
+  <thead>
+    <tr>
+      <th>포럼</th>
+      <th>주제</th>
+      <th>글 개수</th>
+      <th>마지막 포스트</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr id="forum-list-5" class="odd">
+      <td class="forum">
+                          <div class="icon forum-status-default" title="새 글 없음">
+            <span class="element-invisible">새 글 없음</span>
+          </div>
+          <div class="name"><a href="/forum/5">프로그래밍 QnA</a></div>
+                      <div class="description">개발 작업 도중 일어난 문제점을 서로 상의하세요.</div>
+                        </td>
+              <td class="topics">
+          32323                  </td>
+        <td class="posts">138611</td>
+        <td class="last-reply">  <span class="submitted">
+  4시간 57분 전에 <a href="/user/41833" title="사용자 프로필 보기" class="username">jick</a>이 씀  </span>
+</td>
+          </tr>
+      <tr id="forum-list-6" class="even">
+      <td class="forum">
+                          <div class="icon forum-status-default" title="새 글 없음">
+            <span class="element-invisible">새 글 없음</span>
+          </div>
+          <div class="name"><a href="/forum/6">설치 및 활용 QnA</a></div>
+                      <div class="description">OS 및 애플리케이션 설치, 활용에 관한 질문/답변</div>
+                        </td>
+              <td class="topics">
+          34158                  </td>
+        <td class="posts">134839</td>
+        <td class="last-reply">  <span class="submitted">
+  4일 20시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+          </tr>
+      <tr id="forum-list-2797" class="odd">
+      <td class="forum">
+                          <div class="icon forum-status-default" title="새 글 없음">
+            <span class="element-invisible">새 글 없음</span>
+          </div>
+          <div class="name"><a href="/forum/2797">강좌</a></div>
+                      <div class="description">내가 아는 것을 다른 사람들과 나누고 싶을때... </div>
+                        </td>
+              <td class="topics">
+          935                  </td>
+        <td class="posts">6365</td>
+        <td class="last-reply">  <span class="submitted">
+  2일 8시간 전에 <a href="/user/77172" title="사용자 프로필 보기" class="username">elements by euclid</a>이 씀  </span>
+</td>
+          </tr>
+    </tbody>
+</table>
+  </div>
+  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+              </div></div><!-- /.section, /#content -->
+
+          <div id="navigation"><div class="section clearfix">
+
+        <h2 class="element-invisible">주 메뉴</h2><ul id="main-menu" class="links inline clearfix"><li class="menu-90 first"><a href="/forum">Forum (BBS)</a></li>
+<li class="menu-91"><a href="/blog">Geek Blog</a></li>
+<li class="menu-92"><a href="//wiki.kldp.org" title="">KLDP Wiki</a></li>
+<li class="menu-93 last"><a href="http://kldp.net">KLDP.net</a></li>
+</ul>
+          <div class="region region-navigation">
+    <div id="block-search-form" class="block block-search first last odd">
+
+      
+  <div class="content">
+    <form class="google-cse" action="/forum/4" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">검색 폼</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">찾기 </label>
+ <input onclick="this.value=&#039;&#039;;" onfocus="this.select()" onblur="this.value=!this.value?&#039;Search&#039;:this.value;" type="text" id="edit-search-block-form--2" name="search_block_form" value="찾기" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="찾기" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-W06vrAaa0XiSbFK5rNmoYhkiO35Tzm8KSKMniDeGR0U" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+      </div></div><!-- /.section, /#navigation -->
+    
+      <div class="region region-sidebar-first column sidebar"><div class="section">
+    <div id="block-system-navigation" class="block block-system block-menu first odd">
+
+        <h2 class="block-title">둘러보기</h2>
+    
+  <div class="content">
+    <ul class="menu"><li class="first last leaf"><a href="/tracker">최근 포스트</a></li>
+</ul>  </div>
+
+</div><!-- /.block -->
+<div id="block-user-login" class="block block-user even">
+
+        <h2 class="block-title">사용자 로그인</h2>
+    
+  <div class="content">
+    <form action="/forum/4?destination=forum/4" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">아이디 <span class="form-required" title="이 항목은 반드시 입력해야 합니다.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">비밀번호 <span class="form-required" title="이 항목은 반드시 입력해야 합니다.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="새로운 사용자 계정을 만듭니다.">가입하기</a></li>
+<li class="last"><a href="/user/password" title="새로운 비밀번호를 이메일로 보내달라고 요청합니다.">새로운 비밀번호 요청하기</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-LsXwp0bnFtFidXv_Q6zv6r1NhXykUWkD1qgUZr8ah6g" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="로그인" class="form-submit" /></div><div class="hybridauth-widget-wrapper"><div class="item-list"><h3>Oauth2 Login :</h3><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Google?destination=forum/4&amp;destination_error=forum/4" title="Google" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=forum/4&amp;destination_error=forum/4" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-hybridauth-24 hybridauth-google hybridauth-google-hybridauth-24" title="Google"></span></a></li>
+<li><a href="/hybridauth/window/GitHub?destination=forum/4&amp;destination_error=forum/4" title="GitHub" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="GitHub" data-hybridauth-url="/hybridauth/window/GitHub?destination=forum/4&amp;destination_error=forum/4" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon github hybridauth-icon-hybridauth-24 hybridauth-github hybridauth-github-hybridauth-24" title="GitHub"></span></a></li>
+<li><a href="/hybridauth/window/Naver?destination=forum/4&amp;destination_error=forum/4" title="Naver" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Naver" data-hybridauth-url="/hybridauth/window/Naver?destination=forum/4&amp;destination_error=forum/4" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon naver hybridauth-icon-hybridauth-24 hybridauth-naver hybridauth-naver-hybridauth-24" title="Naver"></span></a></li>
+<li class="last"><a href="/hybridauth/window/Facebook?destination=forum/4&amp;destination_error=forum/4" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=forum/4&amp;destination_error=forum/4" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-hybridauth-24 hybridauth-facebook hybridauth-facebook-hybridauth-24" title="Facebook"></span></a></li>
+</ul></div></div></div></form>  </div>
+
+</div><!-- /.block -->
+<div id="block-block-20" class="block block-block last odd">
+
+      
+  <div class="content">
+    <div align="right">
+<a href="//kldp.org/node/88410">홍보 제휴 안내</a>
+</div>  </div>
+
+</div><!-- /.block -->
+  </div></div><!-- /.section, /.region -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  
+      <div id="footer"><div class="section">
+        <div class="region region-footer">
+    <div id="block-block-24" class="block block-block first last odd">
+
+      
+  <div class="content">
+    <p></p><div align="center">
+<a href="http://www.cdnetworks.co.kr" title="CDNetworks - People 서버 상면/회선 지원" rel="nofollow"><img src="//img.kldp.org/static/cdnetworks.gif" width="88" border="0" height="31" alt="CDNetworks" /></a><a href="http://www.naver.com" title="NHN - KLDP Web/DB Server 기증" rel="nofollow"><img src="//img.kldp.org/static/naver.png" width="88" border="0" height="31" alt="Naver" /></a>
+
+<p><a href="https://wiki.kldp.org/wiki.php/KLDP#s-5" rel="nofollow">전체 스폰서 목록</a> | <a href="//kldp.org/contact" rel="nofollow">사이트 관리자에게 연락하기</a><br />
+Copyright © 2016 KLDP.org all rights reserved
+</p></div>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+    </div></div> <!-- /.section, /#footer -->
+  
+</div></div> <!-- /#page, /#page-wrapper -->
+
+  </body>
+</html>

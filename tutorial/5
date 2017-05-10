@@ -1,0 +1,762 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - 프로그래밍 QnA" href="https://kldp.org/taxonomy/term/5/feed" />
+<link rel="shortcut icon" href="https://kldp.org/files/bluemarine_favicon.png" type="image/png" />
+  <title>프로그래밍 QnA | KLDP</title>
+  <style type="text/css" media="all">
+@import url("https://kldp.org/modules/system/system.base.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.menus.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.messages.css?om3fo0");
+@import url("https://kldp.org/modules/system/system.theme.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/modules/aggregator/aggregator.css?om3fo0");
+@import url("https://kldp.org/modules/book/book.css?om3fo0");
+</style>
+<style type="text/css" media="screen">
+@import url("https://kldp.org/sites/all/modules/codefilter/codefilter.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/modules/comment/comment.css?om3fo0");
+@import url("https://kldp.org/modules/field/theme/field.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/google_cse/google_cse.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/logintoboggan/logintoboggan.css?om3fo0");
+@import url("https://kldp.org/modules/node/node.css?om3fo0");
+@import url("https://kldp.org/modules/poll/poll.css?om3fo0");
+@import url("https://kldp.org/modules/search/search.css?om3fo0");
+@import url("https://kldp.org/modules/user/user.css?om3fo0");
+@import url("https://kldp.org/modules/forum/forum.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/views/css/views.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/modules/ctools/css/ctools.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/geshifilter/geshifilter.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/css/hybridauth.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/css/hybridauth.modal.css?om3fo0");
+@import url("https://kldp.org/sites/all/modules/hybridauth/plugins/icon_pack/hybridauth_24/hybridauth_24.css?om3fo0");
+</style>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/html-reset.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/cti-flex-style.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/layout.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/color-schemes.css?om3fo0");
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/local.css?om3fo0");
+</style>
+<style type="text/css" media="print">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/print.css?om3fo0");
+</style>
+
+<!--[if lte IE 7]>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/ie7.css?om3fo0");
+</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<style type="text/css" media="all">
+@import url("https://kldp.org/sites/all/themes/cti_flex/css/ie6.css?om3fo0");
+</style>
+<![endif]-->
+  <script type="text/javascript" src="https://kldp.org/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_CC-zfeuQHcDhFtVRuKW53h30TL7j_105J32Nz8b8R38.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_D2lC74xVx_pnpKZjHrtkNTqtTD98ansARHlvb6k4wc8.js"></script>
+<script type="text/javascript" src="https://kldp.org/files/js/js_kQBdNsim5gc9KI52xHLz7I-g65t-8my_AHKJulbbTlM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cti_flex","theme_token":"GO7hYJfm1c7PO8vTtVrQukdvRpFZL7XObbqfxEwF6Ag","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/codefilter\/codefilter.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"public:\/\/languages\/ko_A8kQKKBLpEkBQhwaAVX1-IH5yAk4PUr94ATGXCB8aSY.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.modal.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.onclick.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/codefilter\/codefilter.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/geshifilter\/geshifilter.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.modal.css":1,"sites\/all\/modules\/hybridauth\/plugins\/icon_pack\/hybridauth_24\/hybridauth_24.css":1,"sites\/all\/themes\/cti_flex\/css\/html-reset.css":1,"sites\/all\/themes\/cti_flex\/css\/cti-flex-style.css":1,"sites\/all\/themes\/cti_flex\/css\/wireframes.css":1,"sites\/all\/themes\/cti_flex\/css\/layout.css":1,"sites\/all\/themes\/cti_flex\/css\/color-schemes.css":1,"sites\/all\/themes\/cti_flex\/css\/local.css":1,"sites\/all\/themes\/cti_flex\/css\/print.css":1,"sites\/all\/themes\/cti_flex\/css\/ie7.css":1,"sites\/all\/themes\/cti_flex\/css\/ie6.css":1}},"googleCSE":{"cx":"partner-pub-6651292044448473:jz430d1s80g","language":"","resultsWidth":600,"domain":"www.google.com"},"urlIsAjaxTrusted":{"\/forum\/5":true,"\/forum\/5?destination=forum\/5":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-forum page-forum- page-forum-5 section-forum fixed-layout full-background black_bg black_accent font-family-notokr font-size-12 none" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page" ">
+
+  <div id="header"><div class="section clearfix">
+
+          <h2 class="element-invisible">부 메뉴</h2><ul id="secondary-menu" class="links inline clearfix"><li class="menu-94 first"><a href="https://wiki.kldp.org/wiki.php/KLDP" title="">about</a></li>
+<li class="menu-96"><a href="/contact">contact</a></li>
+<li class="menu-95 last"><a href="http://wiki.kldp.org/wiki.php/DrupalHandbook">help</a></li>
+</ul>    
+          <a href="/" title="홈" rel="home" id="logo"><img src="https://kldp.org/files/bluemarine_logo.png" alt="홈" /></a>
+    
+          <div id="name-and-slogan">
+                              <div id="site-name"><strong>
+              <a href="/" title="홈" rel="home"><span>KLDP</span></a>
+            </strong></div>
+                  
+                  <div id="site-slogan">Open Source, Geek, IT...</div>
+              </div><!-- /#name-and-slogan -->
+    
+    
+  </div></div><!-- /.section, /#header -->
+
+  <div id="main-wrapper"><div id="main" class="clearfix with-navigation">
+
+    <div id="content" class="column"><div class="section">
+            <div class="breadcrumb"><h2 class="element-invisible">현재 위치</h2><a href="/">홈</a> ›› <a href="/forum">Forums</a> ›› <a href="/forum/4">공부</a></div>      <a id="main-content"></a>
+                    <h1 class="title" id="page-title">프로그래밍 QnA</h1>
+                                <div class="tabs"></div>
+                          <ul class="action-links"><li><a href="/node/add/forum/5">새로운 포럼 주제 추가하기</a></li>
+</ul>
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system first last odd">
+
+      
+  <div class="content">
+    <div id="forum">
+    <table id="forum-topic-5">
+  <thead>
+    <tr><th></th><th><a href="/forum/5?sort=asc&amp;order=%EC%A0%9C%EB%AA%A9" title="정렬 기준: 제목" class="active">제목</a></th><th><a href="/forum/5?sort=asc&amp;order=%EB%8C%93%EA%B8%80" title="정렬 기준: 댓글" class="active">댓글</a></th><th class="active"><a href="/forum/5?sort=asc&amp;order=%EB%A7%88%EC%A7%80%EB%A7%89%20%EB%8C%93%EA%B8%80" title="정렬 기준: 마지막 댓글" class="active">마지막 댓글<img src="https://kldp.org/misc/arrow-asc.png" width="13" height="13" alt="정렬 - 오름차순" title="정렬 - 오름차순" /></a></th></tr>
+  </thead>
+  <tbody>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157525">c로 구현한 알고리즘 보다가 이해가 되지 않는 점이 있습니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  4일 15시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        6              </td>
+      <td class="last-reply">  <span class="submitted">
+  4시간 57분 전에 <a href="/user/41833" title="사용자 프로필 보기" class="username">jick</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157506">안녕하세요. 서버 소켓 프로그래밍에 대해 궁금한 점이 있습니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 2일 전에 <a href="/user/70124" title="사용자 프로필 보기" class="username">chaoty</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        4              </td>
+      <td class="last-reply">  <span class="submitted">
+  13시간 34분 전에 <a href="/user/70124" title="사용자 프로필 보기" class="username">chaoty</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157448">aes 암호화하면서 속도를 증가시키는 방법 없을까요?</a>        </div>
+        <div>
+            <span class="submitted">
+  2주 4일 전에 <a href="/user/81773" title="사용자 프로필 보기" class="username">wonjnlee</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        6              </td>
+      <td class="last-reply">  <span class="submitted">
+  16시간 41분 전에 <span class="username">akjafiejfae</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157451">aes 알고리즘 : 128 이중 암호화 vs 256 한번 암호화 -&gt; 뭐가 더 강력할까요?</a>        </div>
+        <div>
+            <span class="submitted">
+  2주 3일 전에 <a href="/user/81773" title="사용자 프로필 보기" class="username">wonjnlee</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        11              </td>
+      <td class="last-reply">  <span class="submitted">
+  18시간 21분 전에 <a href="/user/83041" title="사용자 프로필 보기" class="username">　</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157540">리눅스 디바이스드라이버와 모듈 질문드립니다. </a>        </div>
+        <div>
+            <span class="submitted">
+  19시간 6분 전에 <a href="/user/84006" title="사용자 프로필 보기" class="username">khy0419</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        0              </td>
+      <td class="last-reply">  없음</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157534">쉘 스크립트(sh) 이해하기..질문입니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  2일 11시간 전에 <a href="/user/83919" title="사용자 프로필 보기" class="username">sea5727</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        2              </td>
+      <td class="last-reply">  <span class="submitted">
+  20시간 21분 전에 <a href="/user/40417" title="사용자 프로필 보기" class="username">chocokeki</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157533">서버 클라이언트 구조에서 다중접속시 부모 자식 프로세스의 우선순위에 대해</a>        </div>
+        <div>
+            <span class="submitted">
+  2일 12시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        2              </td>
+      <td class="last-reply">  <span class="submitted">
+  1일 14시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157538">c언어 스택 문자열 거꾸로 출력 질문입니다</a>        </div>
+        <div>
+            <span class="submitted">
+  1일 19시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        1              </td>
+      <td class="last-reply">  <span class="submitted">
+  1일 15시간 전에 <a href="/user/83041" title="사용자 프로필 보기" class="username">　</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157537">c++ 컴파일러 메모리 배치에 대하여..</a>        </div>
+        <div>
+            <span class="submitted">
+  2일 3시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        1              </td>
+      <td class="last-reply">  <span class="submitted">
+  1일 21시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157532">프로그래밍 언어 질문</a>        </div>
+        <div>
+            <span class="submitted">
+  2일 19시간 전에 <a href="/user/82931" title="사용자 프로필 보기" class="username">wone28</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  2일 12시간 전에 <a href="/user/82931" title="사용자 프로필 보기" class="username">wone28</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157504">레드블랙트리 구현이 잘 됐는지 테스트하는 방법이 뭐가 있을까요?</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 2일 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        2              </td>
+      <td class="last-reply">  <span class="submitted">
+  2일 12시간 전에 <a href="/user/72647" title="사용자 프로필 보기" class="username">goforit</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157529">리눅스 환경에서의 링크드리스트 해제할 때에 관해서</a>        </div>
+        <div>
+            <span class="submitted">
+  3일 10시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        5              </td>
+      <td class="last-reply">  <span class="submitted">
+  2일 15시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/70608">텍스트 에디터를 만들려고 합니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  10년 11 개월 전에 <a href="/user/28332" title="사용자 프로필 보기" class="username">choim</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        6              </td>
+      <td class="last-reply">  <span class="submitted">
+  2일 19시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157530">파일 입출력을 입출력함수 쓰지 않고 구현이 가능한가요?</a>        </div>
+        <div>
+            <span class="submitted">
+  3일 6시간 전에 <a href="/user/84000" title="사용자 프로필 보기" class="username">meobius</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        5              </td>
+      <td class="last-reply">  <span class="submitted">
+  3일 5시간 전에 <a href="/user/84000" title="사용자 프로필 보기" class="username">meobius</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157528">컴퓨터 네트워킹 수업 왜 배워야 하나? 데이터 송수신 방법?</a>        </div>
+        <div>
+            <span class="submitted">
+  3일 12시간 전에 <a href="/user/83998" title="사용자 프로필 보기" class="username">윤영주@Google</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  3일 9시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157516">sigusr1 사용하는데 질문드립니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  6일 4시간 전에 <a href="/user/83925" title="사용자 프로필 보기" class="username">dkdlfkdlzm</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  3일 21시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157524">프로그램 실행 시 메모리 적재 과정관련하여 질문 드립니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  4일 18시간 전에 <a href="/user/83909" title="사용자 프로필 보기" class="username">renboy</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        1              </td>
+      <td class="last-reply">  <span class="submitted">
+  3일 21시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157512">매초마다 생성되는 데이터 저장 방법?</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 9시간 전에 <a href="/user/77605" title="사용자 프로필 보기" class="username">jic5760</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  4일 6시간 전에 <a href="/user/70124" title="사용자 프로필 보기" class="username">chaoty</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157522">malloc(), free() 동적할당 질문입니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  5일 6시간 전에 <a href="/user/83985" title="사용자 프로필 보기" class="username">gloryky</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  4일 15시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157485">[완료]c의 미리 정의된 매크로와 컴파일러,라이브러리 관련해서</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 5일 전에 <a href="/user/81734" title="사용자 프로필 보기" class="username">lsjlsu1022</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        3              </td>
+      <td class="last-reply">  <span class="submitted">
+  4일 16시간 전에 <a href="/user/81734" title="사용자 프로필 보기" class="username">lsjlsu1022</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157499">[알고리즘] 백트래킹 잘모르겠습니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 3일 전에 <a href="/user/83980" title="사용자 프로필 보기" class="username">mm5757</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        1              </td>
+      <td class="last-reply">  <span class="submitted">
+  4일 20시간 전에 <a href="/user/3836" title="사용자 프로필 보기" class="username">chadr</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157455">sysgcc 크로스 컴파일 할 때, 라이브러리 링크 에러에 대해서 질문드립니다.</a>        </div>
+        <div>
+            <span class="submitted">
+  2주 2일 전에 <a href="/user/70124" title="사용자 프로필 보기" class="username">chaoty</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        2              </td>
+      <td class="last-reply">  <span class="submitted">
+  5일 20시간 전에 <a href="/user/70124" title="사용자 프로필 보기" class="username">chaoty</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157514">C++의 string 내부 배열 직접접근에 대한 의견</a>        </div>
+        <div>
+            <span class="submitted">
+  6일 22시간 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        4              </td>
+      <td class="last-reply">  <span class="submitted">
+  6일 18시간 전에 <span class="username">글쓴이</span>이 씀  </span>
+</td>
+        </tr>
+      <tr class="even">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157491">[Linux] sed 명령어에대하여</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 4일 전에 <span class="username">익명 사용자</span>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        1              </td>
+      <td class="last-reply">  <span class="submitted">
+  1주 11시간 전에 <a href="/user/2310" title="사용자 프로필 보기" class="username">김정균</a>이 씀  </span>
+</td>
+        </tr>
+      <tr class="odd">
+      <td class="icon"><div class="topic-status-default" title="일반 토픽">
+
+  <span class="element-invisible">일반 토픽</span>
+
+</div>
+</td>
+      <td class="title">
+        <div>
+          <a href="/node/157510">ibatis 질문</a>        </div>
+        <div>
+            <span class="submitted">
+  1주 21시간 전에 <a href="/user/83971" title="사용자 프로필 보기" class="username">rlawoejr000</a>이 씀  </span>
+        </div>
+      </td>
+          <td class="replies">
+        0              </td>
+      <td class="last-reply">  없음</td>
+        </tr>
+    </tbody>
+</table>
+<h2 class="element-invisible">페이지</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="2 페이지로 가기" href="/forum/5?page=1">2</a></li>
+<li class="pager-item"><a title="3 페이지로 가기" href="/forum/5?page=2">3</a></li>
+<li class="pager-item"><a title="4 페이지로 가기" href="/forum/5?page=3">4</a></li>
+<li class="pager-item"><a title="5 페이지로 가기" href="/forum/5?page=4">5</a></li>
+<li class="pager-item"><a title="6 페이지로 가기" href="/forum/5?page=5">6</a></li>
+<li class="pager-item"><a title="7 페이지로 가기" href="/forum/5?page=6">7</a></li>
+<li class="pager-item"><a title="8 페이지로 가기" href="/forum/5?page=7">8</a></li>
+<li class="pager-item"><a title="9 페이지로 가기" href="/forum/5?page=8">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="다음 페이지" href="/forum/5?page=1">다음 ›</a></li>
+<li class="pager-last last"><a title="마지막 페이지로 가기" href="/forum/5?page=1292">마지막 페이지 »</a></li>
+</ul></div></div>
+  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+      <a href="/taxonomy/term/5/feed" class="feed-icon" title="RSS - 프로그래밍 QnA 구독하기"><img src="https://kldp.org/misc/feed.png" width="16" height="16" alt="RSS - 프로그래밍 QnA 구독하기" /></a>        </div></div><!-- /.section, /#content -->
+
+          <div id="navigation"><div class="section clearfix">
+
+        <h2 class="element-invisible">주 메뉴</h2><ul id="main-menu" class="links inline clearfix"><li class="menu-90 first"><a href="/forum">Forum (BBS)</a></li>
+<li class="menu-91"><a href="/blog">Geek Blog</a></li>
+<li class="menu-92"><a href="//wiki.kldp.org" title="">KLDP Wiki</a></li>
+<li class="menu-93 last"><a href="http://kldp.net">KLDP.net</a></li>
+</ul>
+          <div class="region region-navigation">
+    <div id="block-search-form" class="block block-search first last odd">
+
+      
+  <div class="content">
+    <form class="google-cse" action="/forum/5" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">검색 폼</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">찾기 </label>
+ <input onclick="this.value=&#039;&#039;;" onfocus="this.select()" onblur="this.value=!this.value?&#039;Search&#039;:this.value;" type="text" id="edit-search-block-form--2" name="search_block_form" value="찾기" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="찾기" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WZLanxPkIH42Nd5j89y1euj7UhFcw9pM9-FVC2Mgzxk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+      </div></div><!-- /.section, /#navigation -->
+    
+      <div class="region region-sidebar-first column sidebar"><div class="section">
+    <div id="block-system-navigation" class="block block-system block-menu first odd">
+
+        <h2 class="block-title">둘러보기</h2>
+    
+  <div class="content">
+    <ul class="menu"><li class="first expanded"><a href="/node/add" title="">컨텐츠 작성</a><ul class="menu"><li class="first last leaf"><a href="/node/add/forum" title="포럼(BBS)에 새글 올리기">포럼 주제</a></li>
+</ul></li>
+<li class="last leaf"><a href="/tracker">최근 포스트</a></li>
+</ul>  </div>
+
+</div><!-- /.block -->
+<div id="block-user-login" class="block block-user even">
+
+        <h2 class="block-title">사용자 로그인</h2>
+    
+  <div class="content">
+    <form action="/forum/5?destination=forum/5" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">아이디 <span class="form-required" title="이 항목은 반드시 입력해야 합니다.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">비밀번호 <span class="form-required" title="이 항목은 반드시 입력해야 합니다.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="새로운 사용자 계정을 만듭니다.">가입하기</a></li>
+<li class="last"><a href="/user/password" title="새로운 비밀번호를 이메일로 보내달라고 요청합니다.">새로운 비밀번호 요청하기</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-g3zYNgjUirOmO1pLbldLcZe4-r-L8kg9U1o_n_A6arI" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="로그인" class="form-submit" /></div><div class="hybridauth-widget-wrapper"><div class="item-list"><h3>Oauth2 Login :</h3><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Google?destination=forum/5&amp;destination_error=forum/5" title="Google" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=forum/5&amp;destination_error=forum/5" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-hybridauth-24 hybridauth-google hybridauth-google-hybridauth-24" title="Google"></span></a></li>
+<li><a href="/hybridauth/window/GitHub?destination=forum/5&amp;destination_error=forum/5" title="GitHub" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="GitHub" data-hybridauth-url="/hybridauth/window/GitHub?destination=forum/5&amp;destination_error=forum/5" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon github hybridauth-icon-hybridauth-24 hybridauth-github hybridauth-github-hybridauth-24" title="GitHub"></span></a></li>
+<li><a href="/hybridauth/window/Naver?destination=forum/5&amp;destination_error=forum/5" title="Naver" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Naver" data-hybridauth-url="/hybridauth/window/Naver?destination=forum/5&amp;destination_error=forum/5" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon naver hybridauth-icon-hybridauth-24 hybridauth-naver hybridauth-naver-hybridauth-24" title="Naver"></span></a></li>
+<li class="last"><a href="/hybridauth/window/Facebook?destination=forum/5&amp;destination_error=forum/5" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=forum/5&amp;destination_error=forum/5" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-hybridauth-24 hybridauth-facebook hybridauth-facebook-hybridauth-24" title="Facebook"></span></a></li>
+</ul></div></div></div></form>  </div>
+
+</div><!-- /.block -->
+<div id="block-block-20" class="block block-block last odd">
+
+      
+  <div class="content">
+    <div align="right">
+<a href="//kldp.org/node/88410">홍보 제휴 안내</a>
+</div>  </div>
+
+</div><!-- /.block -->
+  </div></div><!-- /.section, /.region -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  
+      <div id="footer"><div class="section">
+        <div class="region region-footer">
+    <div id="block-block-24" class="block block-block first last odd">
+
+      
+  <div class="content">
+    <p></p><div align="center">
+<a href="http://www.cdnetworks.co.kr" title="CDNetworks - People 서버 상면/회선 지원" rel="nofollow"><img src="//img.kldp.org/static/cdnetworks.gif" width="88" border="0" height="31" alt="CDNetworks" /></a><a href="http://www.naver.com" title="NHN - KLDP Web/DB Server 기증" rel="nofollow"><img src="//img.kldp.org/static/naver.png" width="88" border="0" height="31" alt="Naver" /></a>
+
+<p><a href="https://wiki.kldp.org/wiki.php/KLDP#s-5" rel="nofollow">전체 스폰서 목록</a> | <a href="//kldp.org/contact" rel="nofollow">사이트 관리자에게 연락하기</a><br />
+Copyright © 2016 KLDP.org all rights reserved
+</p></div>  </div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+    </div></div> <!-- /.section, /#footer -->
+  
+</div></div> <!-- /#page, /#page-wrapper -->
+
+  </body>
+</html>

@@ -1,0 +1,1769 @@
+2017-05-10 20:55:27 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: community)
+2017-05-10 20:55:27 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'community.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['community.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'community'}
+2017-05-10 20:55:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-05-10 20:55:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-10 20:55:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-10 20:55:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['community.pipelines.CommunityPipeline']
+2017-05-10 20:55:27 [scrapy.core.engine] INFO: Spider opened
+2017-05-10 20:55:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-10 20:55:27 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-10 20:55:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/robots.txt> from <GET http://www.clien.net/robots.txt>
+2017-05-10 20:55:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bobaedream.co.kr/robots.txt> (referer: None)
+2017-05-10 20:55:27 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.clien.net/robots.txt> (referer: None)
+2017-05-10 20:55:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1> from <GET http://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1>
+2017-05-10 20:55:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.clien.net/service/board/park&page=1> from <GET https://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1>
+2017-05-10 20:55:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/service/board/park&page=1> from <GET http://www.clien.net/service/board/park&page=1>
+2017-05-10 20:55:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.clien.net/service/board/park&page=1> (referer: None)
+2017-05-10 20:55:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bobaedream.co.kr/list?code=freeb&page=1> (referer: None)
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:41:01',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\u4e2d\ub9e4\uccb4 "\ubb38\uc7ac\uc778 \uc9c4\uc9c0\ud558\uac8c \uc0c1\ub300\ud560 \uc778\ubb3c\u2026\u97d3\ud2b9\uc0ac\ub2e8 \ubc29\uc911 \uc608\uc0c1"',
+ 'url': u'http://www.clien.net/service/board/park/10730553'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:40:46',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ubb38\uc81c\ub9ce\uc740 \ubb38\uc7ac\uc778~',
+ 'url': u'http://www.clien.net/service/board/park/10730552'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:38:38',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud074\ub7c9 \uc548\ub4dc\uc571 \ucd9c\uc2dc \ub418\uc5c8\ub124\uc694.',
+ 'url': u'http://www.clien.net/service/board/park/10730551'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:37:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud45c\ud604\uc758 \uc790\uc720\ub97c \uc911\uc694\uc2dc \uc5ec\uae30\ub294 \ub354\ubbfc\uc8fc\uac00 \uacfc\uc5f0 \uc77c\ubca0\ub97c \uc5b4\ub5bb\uac8c \ub300\ucc98\ud560\uae4c..\uac71\uc815\ub418\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730549'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:33:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc774\uc81c \uc5f0\ud569\ub274\uc2a4 \uc18d\ubcf4\uac00 \uae30\ub2e4\ub824 \uc9c0\ub294\uad70\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730544'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:32:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'18\ub300 \ub300\ud1b5\ub839 \ucde8\uc784\uc2dd \ub54c \ub2f9\uc2dc \ubb38\uc7ac\uc778 \uc758\uc6d0 \ubd88\ucc38\ud588\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730543'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:28:45',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'MBC \uc815\uc0c1\ud654 \uc218\uc21c\uc740 \uc5b4\ub5a4 \uc808\ucc28\ub85c \uc9c4\ud589\ub420\uae4c\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730542'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:23:13',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'avira \uc774\uc0c1\ud55c \ud31d\uc5c5\uc774 \ub5a0\uc11c \uc9c0\uc6b0\ub824\uad6c\uc694 -_-',
+ 'url': u'http://www.clien.net/service/board/park/10730540'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:17:36',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc81c\uac00 \ub9d0\uc774\uc8e0 \ubb38\uc7ac\uc778\ub300\ud1b5\ub839\ubcf4\ub2e4 \ub354 \uc88b\uc740\uac8c \uc788\ub354\uad70\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730538'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:16:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uadf8\ub098\uc800\ub098 \uc740\uc218\ubbf8 \uc758\uc6d0\ub2d8 \ubbf8\ucfe0\ub0e5 \ucf54\uc2a4\ud504\ub808\ub294 \uc5b4\ub5bb\uac8c \ub418\ub294\uac74\uac00\uc694 ?',
+ 'url': u'http://www.clien.net/service/board/park/10730537'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:13:05',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc870\uc120\uc77c\ubcf4 \uae30\uc0ac\uc758 \ub313\uae00\uc744 \ubcf4\uba74...',
+ 'url': u'http://www.clien.net/service/board/park/10730536'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:12:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc5b4\uca4c\ub2e4\ubcf4\ub2c8 \ub124\uc774\ubc84 \uae30\uc0ac \ubca0\ub313\uc774 \ub42c\ub124\uc694;;',
+ 'url': u'http://www.clien.net/service/board/park/10730535'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:09:28',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uad50\uc721\ubd80 \uc678\uad50\ubd80 \uad6d\ubc29\ubd80\ub294 \ud0c8\ud0c8 \ud138\uc5b4\uc57c\uc8e0',
+ 'url': u'http://www.clien.net/service/board/park/10730534'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:57:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ucde8\uc784\uc2dd\uc5d0 \ud6c4\ubcf4\uac00 \ucc38\uc11d \uc548\ud588\ub2e4\uace0 \uc778\uc131\uc774 \uc5b4\uca4c\uace0 \ud558\ub294\uac74',
+ 'url': u'http://www.clien.net/service/board/park/10730533'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 06:36:00',
+ 'hits': 6,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ub3c4\ucc29',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261472&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 06:06:00',
+ 'hits': 49,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uacbd\ud488\uc744 \uc911\uace0\uc81c\ud488\uc73c\ub85c \uc8fc\ub294\ub370 \uc5b4\ub5bb\uac8c \uc0dd\uac01\ud558\uc2dc\ub098\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261471&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:54:09',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uad6d\ubbfc\uc758\ub2f9 "\u5b89\ud6c4\ubcf4 \uc0ac\ud1f4\ud558\ub77c\ub294 \uc1a1\uc601\uae38, \uc878\ubd80 \uac11\uc9c8"',
+ 'url': u'http://www.clien.net/service/board/park/10730532'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:47:44',
+ 'hits': u'2',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc2ec\uc0c1\uc815\uc740 \ub2f9\uc0ac\uc5d0\uc11c \ud2f0\ube44\ub85c \ucde8\uc784\uc2dd \ubcf8\uac74\uac00\uc694?',
+ 'url': u'http://www.clien.net/service/board/park/10730530'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:42:25',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub178\ubb34\ud604 \ub300\ud1b5\ub839\uc774 \ud1b5\uc77c\ubd80\uc7a5\uad00\uc73c\ub85c \uc601\uc785\ud558\ub824\uace0 \ud588\ub358 \uc778\ubb3c\uc774 \ub204\uad70\uc9c0 \uc544\uc138\uc694?',
+ 'url': u'http://www.clien.net/service/board/park/10730529'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:40:11',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc774\uba85\ubc15\uadfc\ud61c \ucd5c\uace0\ub85c \ubd80\ub044\ub7fd\ub358 \uc9e4 \ub458...',
+ 'url': u'http://www.clien.net/service/board/park/10730528'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:33:04',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc758\ub839\uad70 \u314a\u3148.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730527'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:16:34',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc640\uc6b0~\uc720\uc2b9\ubbfc \ub2e4\uc2dc\ubcf4\uac8c \ub418\ub124\uc694...',
+ 'url': u'http://www.clien.net/service/board/park/10730524'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:13:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc544\uc9c1\ub3c4 "\ubb38\uc7ac\uc778 \ub300\ud1b5\ub839"\uc774\ub77c\uace0 \ub4e4\uc73c\uba74 \uac00\uc2b4\uc774 \ucc21\ud569\ub2c8\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730523'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:09:14',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud074\ub9ac\uc559 \ubaa9\ub85d\uc73c\ub85c \uac00\ub294 \ubc84\ud2bc\uc740 \ud398\uc774\uc9c0 \uc5b4\ub514 \uc788\uc5c8\ub4e0 \uccab\ud398\uc774\uc9c0 \ubaa9\ub85d\uc73c\ub85c \uc810\ud504\ud558\ub124\uc694.\u3161,,\u3161',
+ 'url': u'http://www.clien.net/service/board/park/10730522'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:58:47',
+ 'hits': u'3',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub300\ud55c\ubbfc\uad6d\uc758 \ud5a5\ud6c4 \uc815\uce58 \uc804\ub9dd\uc740 \uc218\uaf34\uc138\ub825\uc774 \ubb34\uae30\ub825\ud568\uc744 \ub290\ub07c\uac8c \ub420\uac70\ub77c \ubd05\ub2c8\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730521'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:53:50',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc778\ud130\ub137\ubc29\uc1a1\uc740 \ubd10\ub3c4 \ubd10\ub3c4 \uc2e0\uae30\ud558\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730519'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:53:41',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud2b8\ub7fc\ud504 \ud2b9\uac80 \uc8fc\uc7a5\ud558\ub294 \uacf5\ud654\ub2f9 \uc758\uc6d0\ub4e4\uc774 \ub298\uc5b4\ub098\uae30 \uc2dc\uc791\ud588\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730518'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 04:18:00',
+ 'hits': 204,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc7ac\ubc0b\ub294\uac70\ubc1c\uacac\ud588\ub124\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261470&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 03:49:00',
+ 'hits': 126,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc77c\ubca0\ub4e4 \uc6ec\ub9cc\ud558\uba74 \uc774\ud574\ud558\ub824\uace0\ud558\ub294 \ud55c\uc0ac\ub78c\uc73c\ub85c\uc11c.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261469&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 03:25:00',
+ 'hits': 177,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubb38\uc7ac\uc778\ub300\ud1b5\ub839 \uc695\ud55c\uac70 \uace0\uc18c\uc548\ub418\ub098\uc694?',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261468&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:57:00',
+ 'hits': 65,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc218\ucd9c \uc911\uace0\ucc28 \ubb38\uc758\uad00\ub828',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261467&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:38:00',
+ 'hits': 110,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ucda9\uccad\ub3c4 \uac1c\uadf8',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261466&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:18:00',
+ 'hits': 147,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ub274 \ub808\uc778\uc9c0\ub85c\ubc84 \ubcf4\uad6c \uad6c\ud569\ub2c8\ub2e4(\uac1c\uc778 \uc9c1\uac70\ub798 \uc6d0\ud569\ub2c8\ub2e4^^~)',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261465&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:15:00',
+ 'hits': 133,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uae30\ub150\uc73c\ub85c \uadf8\ub824\ubcf4\uc558\uc2b5\ub2c8\ub2e4',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261464&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:53:00',
+ 'hits': 274,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'19\uc0b4 \ucd9c\ud1f4\uadfc\uc911\uace0\ucc28\ucd94\ucc9c\uc880\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261463&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:48:00',
+ 'hits': 209,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ucef4\ub9f9 \uc870\ub9bd\uc2dd\ucef4\ud130 \uacac\uc801 \uc0ac\uae30\uc778\uac00\uc694\u3160\u3160',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261462&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:47:00',
+ 'hits': 360,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubd80\uc0b0 \ubc94\ucc9c\ub3d9\uc5d0\uc11c C63AMG \ucc28\ub7c9\uc744 \ub3c4\ub09c\ub2f9\ud588\uc2b5\ub2c8\ub2e4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261461&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:52:20',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ubb34\uac70\uc6b4 \uba38\ub9ac\uce74\ub77d.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730516'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:50:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud1a0\uc6b0 \ubbf8\uc0ac\uc77c \ud53c\ud558\ub294 \ubc29\ubc95.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730515'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:47:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc624\ubc14\ub9c8 \uc804 \ub300\ud1b5\ub839 \uc704\uc548\ubd80 \uad00\ub828 \uc798\ubabb \uc54c\uace0 \uacc4\uc2dc\ub294\ub370',
+ 'url': u'http://www.clien.net/service/board/park/10730514'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:44:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub300\ub959 \uc0ac\uadf9 \uadfc\ud669.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730513'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:42:10',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc5b4\uc81c \ub4e4\uc5c8\ub358 \ub9d0\uc911 \uc81c\uc77c \ud669\ub2f9\ud55c \ub9d0.txt',
+ 'url': u'http://www.clien.net/service/board/park/10730512'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:33:00',
+ 'hits': 239,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc5ec\uae30\uac00 \ubcf4\ubc30\ub4dc\ub9bc\uc778\uac00\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261460&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:01:00',
+ 'hits': 69,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'GPS',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261459&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:59:00',
+ 'hits': 198,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubc95\ucabd\uc5d0 \uc788\uc73c\uc2ec \ud615\ub2d8\ub4e4..\ub54c\uc778\ub3c8\uc5d0 \uad00\ud55c \uc870\uc5b8\uc880 \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261458&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:51:00',
+ 'hits': 390,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc7ac\uc778\uc774\ud615\uc774 \uacbd\uc720\uac12 \uc62c\ub9b0\ub2e4\ub294\ub370',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261457&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 281,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc0ac\uace0\ub09c \uc904 \ubaa8\ub974\uace0 \uadf8\ub0e5 \uc654\ub294\ub370 \ube14\ubc15 \ubcf4\ub2c8... \ub4a4\ub85c \ube90\ub354\ub77c\uad6c\uc694;',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261456&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 288,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc774\uac8c\ubb50\ub0d0\u314b',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261455&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:19:00',
+ 'hits': 267,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubcf4\ubc30\ud615\ub2d8\ub4e4 \uc791\uc740 \uc1fc\ud551\ubab0 \ucc3d\uc5c5\ud574\ubcf4\ub824\ud569\ub2c8\ub2e4.. \uc870\uc5b8\uc880 \ubd80\ud0c1\ub4dc\ub824\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261454&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:15:00',
+ 'hits': 234,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc6d4\uae09\ub0a0\uc774\ub124\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261453&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:13:00',
+ 'hits': 65,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc0ac\ub098\uc774\ub294',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261452&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:08:00',
+ 'hits': 454,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uba38\ud50c\ub7ec \ubd88\ubc95\uac1c\uc870 \uc2e0\uace0\ud588\uc2b5\ub2c8\ub2e4 \uadf8\ub7f0\ub370',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261451&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:04:00',
+ 'hits': 142,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uad7f\ub098\uc787',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261450&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:03:00',
+ 'hits': 241,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\u3146\u3142 \uc815\uc740\uc544. \ud558\ub098\ub9cc \ubb3b\uc790.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261449&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 158,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc8c4\uc1a1\ud569\ub2c8\ub2e4...',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261448&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 838,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ud754\ud55c \uc4f0\ub9ac \uc194\ub85c\uc758 \ub2e8\ud1a1\ubc29,,,',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261447&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 82,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uad7f\ub098\uc787!',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261446&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 468,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc120\ubb3c \ubc1b\uc740\uac78 \uc720\uac8c\uc5d0 \uc62c\ub838\ub124\uc694.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261445&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 171,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc544..',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261444&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 172,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc2e0\ucc28 \uc8fc\ud589\uac70\ub9ac \ubb38\uc758',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261443&bm=1'}
+2017-05-10 20:55:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-10 20:55:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1880,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 33165,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/302': 3,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 10, 20, 55, 27, 645798),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 69,
+ 'log_count/INFO': 7,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2017, 5, 10, 20, 55, 27, 309965)}
+2017-05-10 20:55:27 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-05-10 20:56:03 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: community)
+2017-05-10 20:56:03 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'community.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['community.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'community'}
+2017-05-10 20:56:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-05-10 20:56:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-10 20:56:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-10 20:56:03 [scrapy.middleware] INFO: Enabled item pipelines:
+['community.pipelines.CommunityPipeline']
+2017-05-10 20:56:03 [scrapy.core.engine] INFO: Spider opened
+2017-05-10 20:56:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-10 20:56:03 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-10 20:56:03 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/robots.txt> from <GET http://www.clien.net/robots.txt>
+2017-05-10 20:56:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bobaedream.co.kr/robots.txt> (referer: None)
+2017-05-10 20:56:03 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.clien.net/robots.txt> (referer: None)
+2017-05-10 20:56:03 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1> from <GET http://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1>
+2017-05-10 20:56:03 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.clien.net/service/board/park&page=1> from <GET https://www.clien.net/cs2/bbs/board.php?bo_table=park&page=1>
+2017-05-10 20:56:03 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.clien.net/service/board/park&page=1> from <GET http://www.clien.net/service/board/park&page=1>
+2017-05-10 20:56:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.clien.net/service/board/park&page=1> (referer: None)
+2017-05-10 20:56:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bobaedream.co.kr/list?code=freeb&page=1> (referer: None)
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:43:55',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uac04\uc18c\ud55c \ucde8\uc784\uc2dd \uc88b\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730554'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:41:01',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\u4e2d\ub9e4\uccb4 "\ubb38\uc7ac\uc778 \uc9c4\uc9c0\ud558\uac8c \uc0c1\ub300\ud560 \uc778\ubb3c\u2026\u97d3\ud2b9\uc0ac\ub2e8 \ubc29\uc911 \uc608\uc0c1"',
+ 'url': u'http://www.clien.net/service/board/park/10730553'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:40:46',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ubb38\uc81c\ub9ce\uc740 \ubb38\uc7ac\uc778~',
+ 'url': u'http://www.clien.net/service/board/park/10730552'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:38:38',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud074\ub7c9 \uc548\ub4dc\uc571 \ucd9c\uc2dc \ub418\uc5c8\ub124\uc694.',
+ 'url': u'http://www.clien.net/service/board/park/10730551'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:37:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud45c\ud604\uc758 \uc790\uc720\ub97c \uc911\uc694\uc2dc \uc5ec\uae30\ub294 \ub354\ubbfc\uc8fc\uac00 \uacfc\uc5f0 \uc77c\ubca0\ub97c \uc5b4\ub5bb\uac8c \ub300\ucc98\ud560\uae4c..\uac71\uc815\ub418\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730549'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:33:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc774\uc81c \uc5f0\ud569\ub274\uc2a4 \uc18d\ubcf4\uac00 \uae30\ub2e4\ub824 \uc9c0\ub294\uad70\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730544'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:32:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'18\ub300 \ub300\ud1b5\ub839 \ucde8\uc784\uc2dd \ub54c \ub2f9\uc2dc \ubb38\uc7ac\uc778 \uc758\uc6d0 \ubd88\ucc38\ud588\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730543'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:28:45',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'MBC \uc815\uc0c1\ud654 \uc218\uc21c\uc740 \uc5b4\ub5a4 \uc808\ucc28\ub85c \uc9c4\ud589\ub420\uae4c\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730542'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:23:13',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'avira \uc774\uc0c1\ud55c \ud31d\uc5c5\uc774 \ub5a0\uc11c \uc9c0\uc6b0\ub824\uad6c\uc694 -_-',
+ 'url': u'http://www.clien.net/service/board/park/10730540'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:17:36',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc81c\uac00 \ub9d0\uc774\uc8e0 \ubb38\uc7ac\uc778\ub300\ud1b5\ub839\ubcf4\ub2e4 \ub354 \uc88b\uc740\uac8c \uc788\ub354\uad70\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730538'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:16:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uadf8\ub098\uc800\ub098 \uc740\uc218\ubbf8 \uc758\uc6d0\ub2d8 \ubbf8\ucfe0\ub0e5 \ucf54\uc2a4\ud504\ub808\ub294 \uc5b4\ub5bb\uac8c \ub418\ub294\uac74\uac00\uc694 ?',
+ 'url': u'http://www.clien.net/service/board/park/10730537'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:13:05',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc870\uc120\uc77c\ubcf4 \uae30\uc0ac\uc758 \ub313\uae00\uc744 \ubcf4\uba74...',
+ 'url': u'http://www.clien.net/service/board/park/10730536'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:12:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc5b4\uca4c\ub2e4\ubcf4\ub2c8 \ub124\uc774\ubc84 \uae30\uc0ac \ubca0\ub313\uc774 \ub42c\ub124\uc694;;',
+ 'url': u'http://www.clien.net/service/board/park/10730535'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 06:36:00',
+ 'hits': 8,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ub3c4\ucc29',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261472&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 06:06:00',
+ 'hits': 49,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uacbd\ud488\uc744 \uc911\uace0\uc81c\ud488\uc73c\ub85c \uc8fc\ub294\ub370 \uc5b4\ub5bb\uac8c \uc0dd\uac01\ud558\uc2dc\ub098\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261471&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 06:09:28',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uad50\uc721\ubd80 \uc678\uad50\ubd80 \uad6d\ubc29\ubd80\ub294 \ud0c8\ud0c8 \ud138\uc5b4\uc57c\uc8e0',
+ 'url': u'http://www.clien.net/service/board/park/10730534'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:57:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ucde8\uc784\uc2dd\uc5d0 \ud6c4\ubcf4\uac00 \ucc38\uc11d \uc548\ud588\ub2e4\uace0 \uc778\uc131\uc774 \uc5b4\uca4c\uace0 \ud558\ub294\uac74',
+ 'url': u'http://www.clien.net/service/board/park/10730533'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:54:09',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uad6d\ubbfc\uc758\ub2f9 "\u5b89\ud6c4\ubcf4 \uc0ac\ud1f4\ud558\ub77c\ub294 \uc1a1\uc601\uae38, \uc878\ubd80 \uac11\uc9c8"',
+ 'url': u'http://www.clien.net/service/board/park/10730532'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:47:44',
+ 'hits': u'2',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc2ec\uc0c1\uc815\uc740 \ub2f9\uc0ac\uc5d0\uc11c \ud2f0\ube44\ub85c \ucde8\uc784\uc2dd \ubcf8\uac74\uac00\uc694?',
+ 'url': u'http://www.clien.net/service/board/park/10730530'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:42:25',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub178\ubb34\ud604 \ub300\ud1b5\ub839\uc774 \ud1b5\uc77c\ubd80\uc7a5\uad00\uc73c\ub85c \uc601\uc785\ud558\ub824\uace0 \ud588\ub358 \uc778\ubb3c\uc774 \ub204\uad70\uc9c0 \uc544\uc138\uc694?',
+ 'url': u'http://www.clien.net/service/board/park/10730529'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:40:11',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc774\uba85\ubc15\uadfc\ud61c \ucd5c\uace0\ub85c \ubd80\ub044\ub7fd\ub358 \uc9e4 \ub458...',
+ 'url': u'http://www.clien.net/service/board/park/10730528'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:33:04',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc758\ub839\uad70 \u314a\u3148.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730527'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:16:34',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc640\uc6b0~\uc720\uc2b9\ubbfc \ub2e4\uc2dc\ubcf4\uac8c \ub418\ub124\uc694...',
+ 'url': u'http://www.clien.net/service/board/park/10730524'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:13:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc544\uc9c1\ub3c4 "\ubb38\uc7ac\uc778 \ub300\ud1b5\ub839"\uc774\ub77c\uace0 \ub4e4\uc73c\uba74 \uac00\uc2b4\uc774 \ucc21\ud569\ub2c8\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730523'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 05:09:14',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud074\ub9ac\uc559 \ubaa9\ub85d\uc73c\ub85c \uac00\ub294 \ubc84\ud2bc\uc740 \ud398\uc774\uc9c0 \uc5b4\ub514 \uc788\uc5c8\ub4e0 \uccab\ud398\uc774\uc9c0 \ubaa9\ub85d\uc73c\ub85c \uc810\ud504\ud558\ub124\uc694.\u3161,,\u3161',
+ 'url': u'http://www.clien.net/service/board/park/10730522'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:58:47',
+ 'hits': u'3',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub300\ud55c\ubbfc\uad6d\uc758 \ud5a5\ud6c4 \uc815\uce58 \uc804\ub9dd\uc740 \uc218\uaf34\uc138\ub825\uc774 \ubb34\uae30\ub825\ud568\uc744 \ub290\ub07c\uac8c \ub420\uac70\ub77c \ubd05\ub2c8\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730521'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 04:18:00',
+ 'hits': 209,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc7ac\ubc0b\ub294\uac70\ubc1c\uacac\ud588\ub124\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261470&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 03:49:00',
+ 'hits': 128,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc77c\ubca0\ub4e4 \uc6ec\ub9cc\ud558\uba74 \uc774\ud574\ud558\ub824\uace0\ud558\ub294 \ud55c\uc0ac\ub78c\uc73c\ub85c\uc11c.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261469&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 03:25:00',
+ 'hits': 178,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubb38\uc7ac\uc778\ub300\ud1b5\ub839 \uc695\ud55c\uac70 \uace0\uc18c\uc548\ub418\ub098\uc694?',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261468&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:57:00',
+ 'hits': 65,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc218\ucd9c \uc911\uace0\ucc28 \ubb38\uc758\uad00\ub828',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261467&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:38:00',
+ 'hits': 110,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ucda9\uccad\ub3c4 \uac1c\uadf8',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261466&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:18:00',
+ 'hits': 148,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ub274 \ub808\uc778\uc9c0\ub85c\ubc84 \ubcf4\uad6c \uad6c\ud569\ub2c8\ub2e4(\uac1c\uc778 \uc9c1\uac70\ub798 \uc6d0\ud569\ub2c8\ub2e4^^~)',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261465&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:53:50',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc778\ud130\ub137\ubc29\uc1a1\uc740 \ubd10\ub3c4 \ubd10\ub3c4 \uc2e0\uae30\ud558\ub124\uc694',
+ 'url': u'http://www.clien.net/service/board/park/10730519'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:53:41',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud2b8\ub7fc\ud504 \ud2b9\uac80 \uc8fc\uc7a5\ud558\ub294 \uacf5\ud654\ub2f9 \uc758\uc6d0\ub4e4\uc774 \ub298\uc5b4\ub098\uae30 \uc2dc\uc791\ud588\ub2e4.',
+ 'url': u'http://www.clien.net/service/board/park/10730518'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:52:20',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ubb34\uac70\uc6b4 \uba38\ub9ac\uce74\ub77d.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730516'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:50:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ud1a0\uc6b0 \ubbf8\uc0ac\uc77c \ud53c\ud558\ub294 \ubc29\ubc95.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730515'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:47:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\uc624\ubc14\ub9c8 \uc804 \ub300\ud1b5\ub839 \uc704\uc548\ubd80 \uad00\ub828 \uc798\ubabb \uc54c\uace0 \uacc4\uc2dc\ub294\ub370',
+ 'url': u'http://www.clien.net/service/board/park/10730514'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.clien.net/service/board/park&page=1>
+{'category': 'free',
+ 'date': '2017-05-11 04:44:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': u'\ub300\ub959 \uc0ac\uadf9 \uadfc\ud669.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730513'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 02:15:00',
+ 'hits': 135,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uae30\ub150\uc73c\ub85c \uadf8\ub824\ubcf4\uc558\uc2b5\ub2c8\ub2e4',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261464&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:53:00',
+ 'hits': 275,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'19\uc0b4 \ucd9c\ud1f4\uadfc\uc911\uace0\ucc28\ucd94\ucc9c\uc880\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261463&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:48:00',
+ 'hits': 209,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ucef4\ub9f9 \uc870\ub9bd\uc2dd\ucef4\ud130 \uacac\uc801 \uc0ac\uae30\uc778\uac00\uc694\u3160\u3160',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261462&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:47:00',
+ 'hits': 360,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubd80\uc0b0 \ubc94\ucc9c\ub3d9\uc5d0\uc11c C63AMG \ucc28\ub7c9\uc744 \ub3c4\ub09c\ub2f9\ud588\uc2b5\ub2c8\ub2e4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261461&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:33:00',
+ 'hits': 239,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc5ec\uae30\uac00 \ubcf4\ubc30\ub4dc\ub9bc\uc778\uac00\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261460&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 01:01:00',
+ 'hits': 69,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'GPS',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261459&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:59:00',
+ 'hits': 199,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubc95\ucabd\uc5d0 \uc788\uc73c\uc2ec \ud615\ub2d8\ub4e4..\ub54c\uc778\ub3c8\uc5d0 \uad00\ud55c \uc870\uc5b8\uc880 \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261458&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:51:00',
+ 'hits': 390,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc7ac\uc778\uc774\ud615\uc774 \uacbd\uc720\uac12 \uc62c\ub9b0\ub2e4\ub294\ub370',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261457&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 281,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc0ac\uace0\ub09c \uc904 \ubaa8\ub974\uace0 \uadf8\ub0e5 \uc654\ub294\ub370 \ube14\ubc15 \ubcf4\ub2c8... \ub4a4\ub85c \ube90\ub354\ub77c\uad6c\uc694;',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261456&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 288,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc774\uac8c\ubb50\ub0d0\u314b',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261455&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:19:00',
+ 'hits': 267,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ubcf4\ubc30\ud615\ub2d8\ub4e4 \uc791\uc740 \uc1fc\ud551\ubab0 \ucc3d\uc5c5\ud574\ubcf4\ub824\ud569\ub2c8\ub2e4.. \uc870\uc5b8\uc880 \ubd80\ud0c1\ub4dc\ub824\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261454&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:15:00',
+ 'hits': 234,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc6d4\uae09\ub0a0\uc774\ub124\uc694',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261453&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:13:00',
+ 'hits': 65,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc0ac\ub098\uc774\ub294',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261452&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:08:00',
+ 'hits': 455,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uba38\ud50c\ub7ec \ubd88\ubc95\uac1c\uc870 \uc2e0\uace0\ud588\uc2b5\ub2c8\ub2e4 \uadf8\ub7f0\ub370',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261451&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:04:00',
+ 'hits': 142,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uad7f\ub098\uc787',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261450&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:03:00',
+ 'hits': 241,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\u3146\u3142 \uc815\uc740\uc544. \ud558\ub098\ub9cc \ubb3b\uc790.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261449&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 158,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc8c4\uc1a1\ud569\ub2c8\ub2e4...',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261448&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 839,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\ud754\ud55c \uc4f0\ub9ac \uc194\ub85c\uc758 \ub2e8\ud1a1\ubc29,,,',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261447&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 82,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uad7f\ub098\uc787!',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261446&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 469,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc120\ubb3c \ubc1b\uc740\uac78 \uc720\uac8c\uc5d0 \uc62c\ub838\ub124\uc694.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261445&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 171,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc544..',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261444&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.bobaedream.co.kr/list?code=freeb&page=1>
+{'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 172,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': u'\uc2e0\ucc28 \uc8fc\ud589\uac70\ub9ac \ubb38\uc758',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261443&bm=1'}
+2017-05-10 20:56:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-10 20:56:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1880,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 33088,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/302': 3,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 10, 20, 56, 3, 791676),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 69,
+ 'log_count/INFO': 7,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2017, 5, 10, 20, 56, 3, 454048)}
+2017-05-10 20:56:03 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-05-10 20:58:03 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: community)
+2017-05-10 20:58:03 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'community.spiders', 'ROBOTSTXT_OBEY': True, 'LOG_LEVEL': 20, 'SPIDER_MODULES': ['community.spiders'], 'BOT_NAME': 'community', 'LOG_FILE': 'logfile.log'}
+2017-05-10 20:58:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-05-10 20:58:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-10 20:58:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-10 20:58:03 [scrapy.middleware] INFO: Enabled item pipelines:
+['community.pipelines.CommunityPipeline']
+2017-05-10 20:58:03 [scrapy.core.engine] INFO: Spider opened
+2017-05-10 20:58:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-10 20:58:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-10 20:58:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1880,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 33145,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/302': 3,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 10, 20, 58, 3, 844150),
+ 'item_scraped_count': 60,
+ 'log_count/INFO': 7,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2017, 5, 10, 20, 58, 3, 537422)}
+2017-05-10 20:58:03 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-05-10 21:00:24 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: community)
+2017-05-10 21:00:24 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'community.spiders', 'ROBOTSTXT_OBEY': True, 'LOG_LEVEL': 20, 'SPIDER_MODULES': ['community.spiders'], 'BOT_NAME': 'community', 'LOG_FILE': 'logfile.log'}
+2017-05-10 21:00:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-05-10 21:00:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-10 21:00:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-10 21:00:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['community.pipelines.CommunityPipeline']
+2017-05-10 21:00:24 [scrapy.core.engine] INFO: Spider opened
+2017-05-10 21:00:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:46:19',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x9d\xb4\xeb\x82\x99\xec\x97\xb0 \xec\xa0\x84\xeb\x82\xa8\xec\xa7\x80\xec\x82\xac, \xea\xb5\xad\xeb\xac\xb4\xec\xb4\x9d\xeb\xa6\xac \xec\xa7\x80\xeb\xaa\x85',
+ 'url': u'http://www.clien.net/service/board/park/10730555'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:43:55',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xea\xb0\x84\xec\x86\x8c\xed\x95\x9c \xec\xb7\xa8\xec\x9e\x84\xec\x8b\x9d \xec\xa2\x8b\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730554'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:41:01',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xe4\xb8\xad\xeb\xa7\xa4\xec\xb2\xb4 "\xeb\xac\xb8\xec\x9e\xac\xec\x9d\xb8 \xec\xa7\x84\xec\xa7\x80\xed\x95\x98\xea\xb2\x8c \xec\x83\x81\xeb\x8c\x80\xed\x95\xa0 \xec\x9d\xb8\xeb\xac\xbc\xe2\x80\xa6\xe9\x9f\x93\xed\x8a\xb9\xec\x82\xac\xeb\x8b\xa8 \xeb\xb0\xa9\xec\xa4\x91 \xec\x98\x88\xec\x83\x81"',
+ 'url': u'http://www.clien.net/service/board/park/10730553'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe4 in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:38:38',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xed\x81\xb4\xeb\x9f\x89 \xec\x95\x88\xeb\x93\x9c\xec\x95\xb1 \xec\xb6\x9c\xec\x8b\x9c \xeb\x90\x98\xec\x97\x88\xeb\x84\xa4\xec\x9a\x94.',
+ 'url': u'http://www.clien.net/service/board/park/10730551'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:37:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xed\x91\x9c\xed\x98\x84\xec\x9d\x98 \xec\x9e\x90\xec\x9c\xa0\xeb\xa5\xbc \xec\xa4\x91\xec\x9a\x94\xec\x8b\x9c \xec\x97\xac\xea\xb8\xb0\xeb\x8a\x94 \xeb\x8d\x94\xeb\xaf\xbc\xec\xa3\xbc\xea\xb0\x80 \xea\xb3\xbc\xec\x97\xb0 \xec\x9d\xbc\xeb\xb2\xa0\xeb\xa5\xbc \xec\x96\xb4\xeb\x96\xbb\xea\xb2\x8c \xeb\x8c\x80\xec\xb2\x98\xed\x95\xa0\xea\xb9\x8c..\xea\xb1\xb1\xec\xa0\x95\xeb\x90\x98\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730549'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:33:44',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x9d\xb4\xec\xa0\x9c \xec\x97\xb0\xed\x95\xa9\xeb\x89\xb4\xec\x8a\xa4 \xec\x86\x8d\xeb\xb3\xb4\xea\xb0\x80 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa0\xa4 \xec\xa7\x80\xeb\x8a\x94\xea\xb5\xb0\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730544'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:32:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '18\xeb\x8c\x80 \xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9 \xec\xb7\xa8\xec\x9e\x84\xec\x8b\x9d \xeb\x95\x8c \xeb\x8b\xb9\xec\x8b\x9c \xeb\xac\xb8\xec\x9e\xac\xec\x9d\xb8 \xec\x9d\x98\xec\x9b\x90 \xeb\xb6\x88\xec\xb0\xb8\xed\x96\x88\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730543'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 2: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:28:45',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': 'MBC \xec\xa0\x95\xec\x83\x81\xed\x99\x94 \xec\x88\x98\xec\x88\x9c\xec\x9d\x80 \xec\x96\xb4\xeb\x96\xa4 \xec\xa0\x88\xec\xb0\xa8\xeb\xa1\x9c \xec\xa7\x84\xed\x96\x89\xeb\x90\xa0\xea\xb9\x8c\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730542'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 4: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:23:13',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': 'avira \xec\x9d\xb4\xec\x83\x81\xed\x95\x9c \xed\x8c\x9d\xec\x97\x85\xec\x9d\xb4 \xeb\x96\xa0\xec\x84\x9c \xec\xa7\x80\xec\x9a\xb0\xeb\xa0\xa4\xea\xb5\xac\xec\x9a\x94 -_-',
+ 'url': u'http://www.clien.net/service/board/park/10730540'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 6: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:17:36',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\xa0\x9c\xea\xb0\x80 \xeb\xa7\x90\xec\x9d\xb4\xec\xa3\xa0 \xeb\xac\xb8\xec\x9e\xac\xec\x9d\xb8\xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9\xeb\xb3\xb4\xeb\x8b\xa4 \xeb\x8d\x94 \xec\xa2\x8b\xec\x9d\x80\xea\xb2\x8c \xec\x9e\x88\xeb\x8d\x94\xea\xb5\xb0\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730538'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:16:21',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xea\xb7\xb8\xeb\x82\x98\xec\xa0\x80\xeb\x82\x98 \xec\x9d\x80\xec\x88\x98\xeb\xaf\xb8 \xec\x9d\x98\xec\x9b\x90\xeb\x8b\x98 \xeb\xaf\xb8\xec\xbf\xa0\xeb\x83\xa5 \xec\xbd\x94\xec\x8a\xa4\xed\x94\x84\xeb\xa0\x88\xeb\x8a\x94 \xec\x96\xb4\xeb\x96\xbb\xea\xb2\x8c \xeb\x90\x98\xeb\x8a\x94\xea\xb1\xb4\xea\xb0\x80\xec\x9a\x94 ?',
+ 'url': u'http://www.clien.net/service/board/park/10730537'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 06:36:00',
+ 'hits': 14,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\x8f\x84\xec\xb0\xa9',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261472&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 06:06:00',
+ 'hits': 51,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xea\xb2\xbd\xed\x92\x88\xec\x9d\x84 \xec\xa4\x91\xea\xb3\xa0\xec\xa0\x9c\xed\x92\x88\xec\x9c\xbc\xeb\xa1\x9c \xec\xa3\xbc\xeb\x8a\x94\xeb\x8d\xb0 \xec\x96\xb4\xeb\x96\xbb\xea\xb2\x8c \xec\x83\x9d\xea\xb0\x81\xed\x95\x98\xec\x8b\x9c\xeb\x82\x98\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261471&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:13:05',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\xa1\xb0\xec\x84\xa0\xec\x9d\xbc\xeb\xb3\xb4 \xea\xb8\xb0\xec\x82\xac\xec\x9d\x98 \xeb\x8c\x93\xea\xb8\x80\xec\x9d\x84 \xeb\xb3\xb4\xeb\xa9\xb4...',
+ 'url': u'http://www.clien.net/service/board/park/10730536'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:12:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x96\xb4\xec\xa9\x8c\xeb\x8b\xa4\xeb\xb3\xb4\xeb\x8b\x88 \xeb\x84\xa4\xec\x9d\xb4\xeb\xb2\x84 \xea\xb8\xb0\xec\x82\xac \xeb\xb2\xa0\xeb\x8c\x93\xec\x9d\xb4 \xeb\x90\xac\xeb\x84\xa4\xec\x9a\x94;;',
+ 'url': u'http://www.clien.net/service/board/park/10730535'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 06:09:28',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xea\xb5\x90\xec\x9c\xa1\xeb\xb6\x80 \xec\x99\xb8\xea\xb5\x90\xeb\xb6\x80 \xea\xb5\xad\xeb\xb0\xa9\xeb\xb6\x80\xeb\x8a\x94 \xed\x83\x88\xed\x83\x88 \xed\x84\xb8\xec\x96\xb4\xec\x95\xbc\xec\xa3\xa0',
+ 'url': u'http://www.clien.net/service/board/park/10730534'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:57:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\xb7\xa8\xec\x9e\x84\xec\x8b\x9d\xec\x97\x90 \xed\x9b\x84\xeb\xb3\xb4\xea\xb0\x80 \xec\xb0\xb8\xec\x84\x9d \xec\x95\x88\xed\x96\x88\xeb\x8b\xa4\xea\xb3\xa0 \xec\x9d\xb8\xec\x84\xb1\xec\x9d\xb4 \xec\x96\xb4\xec\xa9\x8c\xea\xb3\xa0 \xed\x95\x98\xeb\x8a\x94\xea\xb1\xb4',
+ 'url': u'http://www.clien.net/service/board/park/10730533'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:54:09',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xea\xb5\xad\xeb\xaf\xbc\xec\x9d\x98\xeb\x8b\xb9 "\xe5\xae\x89\xed\x9b\x84\xeb\xb3\xb4 \xec\x82\xac\xed\x87\xb4\xed\x95\x98\xeb\x9d\xbc\xeb\x8a\x94 \xec\x86\xa1\xec\x98\x81\xea\xb8\xb8, \xec\xa1\xb8\xeb\xb6\x80 \xea\xb0\x91\xec\xa7\x88"',
+ 'url': u'http://www.clien.net/service/board/park/10730532'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:47:44',
+ 'hits': u'2',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x8b\xac\xec\x83\x81\xec\xa0\x95\xec\x9d\x80 \xeb\x8b\xb9\xec\x82\xac\xec\x97\x90\xec\x84\x9c \xed\x8b\xb0\xeb\xb9\x84\xeb\xa1\x9c \xec\xb7\xa8\xec\x9e\x84\xec\x8b\x9d \xeb\xb3\xb8\xea\xb1\xb4\xea\xb0\x80\xec\x9a\x94?',
+ 'url': u'http://www.clien.net/service/board/park/10730530'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:42:25',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xeb\x85\xb8\xeb\xac\xb4\xed\x98\x84 \xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9\xec\x9d\xb4 \xed\x86\xb5\xec\x9d\xbc\xeb\xb6\x80\xec\x9e\xa5\xea\xb4\x80\xec\x9c\xbc\xeb\xa1\x9c \xec\x98\x81\xec\x9e\x85\xed\x95\x98\xeb\xa0\xa4\xea\xb3\xa0 \xed\x96\x88\xeb\x8d\x98 \xec\x9d\xb8\xeb\xac\xbc\xec\x9d\xb4 \xeb\x88\x84\xea\xb5\xb0\xec\xa7\x80 \xec\x95\x84\xec\x84\xb8\xec\x9a\x94?',
+ 'url': u'http://www.clien.net/service/board/park/10730529'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 04:18:00',
+ 'hits': 217,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x9e\xac\xeb\xb0\x8b\xeb\x8a\x94\xea\xb1\xb0\xeb\xb0\x9c\xea\xb2\xac\xed\x96\x88\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261470&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 03:49:00',
+ 'hits': 138,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x9d\xbc\xeb\xb2\xa0\xeb\x93\xa4 \xec\x9b\xac\xeb\xa7\x8c\xed\x95\x98\xeb\xa9\xb4 \xec\x9d\xb4\xed\x95\xb4\xed\x95\x98\xeb\xa0\xa4\xea\xb3\xa0\xed\x95\x98\xeb\x8a\x94 \xed\x95\x9c\xec\x82\xac\xeb\x9e\x8c\xec\x9c\xbc\xeb\xa1\x9c\xec\x84\x9c.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261469&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 03:25:00',
+ 'hits': 186,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\xac\xb8\xec\x9e\xac\xec\x9d\xb8\xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9 \xec\x9a\x95\xed\x95\x9c\xea\xb1\xb0 \xea\xb3\xa0\xec\x86\x8c\xec\x95\x88\xeb\x90\x98\xeb\x82\x98\xec\x9a\x94?',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261468&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 02:57:00',
+ 'hits': 66,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x88\x98\xec\xb6\x9c \xec\xa4\x91\xea\xb3\xa0\xec\xb0\xa8 \xeb\xac\xb8\xec\x9d\x98\xea\xb4\x80\xeb\xa0\xa8',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261467&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 02:38:00',
+ 'hits': 111,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\xb6\xa9\xec\xb2\xad\xeb\x8f\x84 \xea\xb0\x9c\xea\xb7\xb8',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261466&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 02:18:00',
+ 'hits': 152,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\x89\xb4 \xeb\xa0\x88\xec\x9d\xb8\xec\xa7\x80\xeb\xa1\x9c\xeb\xb2\x84 \xeb\xb3\xb4\xea\xb5\xac \xea\xb5\xac\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4(\xea\xb0\x9c\xec\x9d\xb8 \xec\xa7\x81\xea\xb1\xb0\xeb\x9e\x98 \xec\x9b\x90\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4^^~)',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261465&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 02:15:00',
+ 'hits': 141,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xea\xb8\xb0\xeb\x85\x90\xec\x9c\xbc\xeb\xa1\x9c \xea\xb7\xb8\xeb\xa0\xa4\xeb\xb3\xb4\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261464&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 01:53:00',
+ 'hits': 282,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '19\xec\x82\xb4 \xec\xb6\x9c\xed\x87\xb4\xea\xb7\xbc\xec\xa4\x91\xea\xb3\xa0\xec\xb0\xa8\xec\xb6\x94\xec\xb2\x9c\xec\xa2\x80\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261463&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 2: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 01:48:00',
+ 'hits': 211,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\xbb\xb4\xeb\xa7\xb9 \xec\xa1\xb0\xeb\xa6\xbd\xec\x8b\x9d\xec\xbb\xb4\xed\x84\xb0 \xea\xb2\xac\xec\xa0\x81 \xec\x82\xac\xea\xb8\xb0\xec\x9d\xb8\xea\xb0\x80\xec\x9a\x94\xe3\x85\xa0\xe3\x85\xa0',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261462&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:40:11',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x9d\xb4\xeb\xaa\x85\xeb\xb0\x95\xea\xb7\xbc\xed\x98\x9c \xec\xb5\x9c\xea\xb3\xa0\xeb\xa1\x9c \xeb\xb6\x80\xeb\x81\x84\xeb\x9f\xbd\xeb\x8d\x98 \xec\xa7\xa4 \xeb\x91\x98...',
+ 'url': u'http://www.clien.net/service/board/park/10730528'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:33:04',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x9d\x98\xeb\xa0\xb9\xea\xb5\xb0 \xe3\x85\x8a\xe3\x85\x88.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730527'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:16:34',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x99\x80\xec\x9a\xb0~\xec\x9c\xa0\xec\x8a\xb9\xeb\xaf\xbc \xeb\x8b\xa4\xec\x8b\x9c\xeb\xb3\xb4\xea\xb2\x8c \xeb\x90\x98\xeb\x84\xa4\xec\x9a\x94...',
+ 'url': u'http://www.clien.net/service/board/park/10730524'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:13:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x95\x84\xec\xa7\x81\xeb\x8f\x84 "\xeb\xac\xb8\xec\x9e\xac\xec\x9d\xb8 \xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9"\xec\x9d\xb4\xeb\x9d\xbc\xea\xb3\xa0 \xeb\x93\xa4\xec\x9c\xbc\xeb\xa9\xb4 \xea\xb0\x80\xec\x8a\xb4\xec\x9d\xb4 \xec\xb0\xa1\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4.',
+ 'url': u'http://www.clien.net/service/board/park/10730523'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 05:09:14',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99 \xeb\xaa\xa9\xeb\xa1\x9d\xec\x9c\xbc\xeb\xa1\x9c \xea\xb0\x80\xeb\x8a\x94 \xeb\xb2\x84\xed\x8a\xbc\xec\x9d\x80 \xed\x8e\x98\xec\x9d\xb4\xec\xa7\x80 \xec\x96\xb4\xeb\x94\x94 \xec\x9e\x88\xec\x97\x88\xeb\x93\xa0 \xec\xb2\xab\xed\x8e\x98\xec\x9d\xb4\xec\xa7\x80 \xeb\xaa\xa9\xeb\xa1\x9d\xec\x9c\xbc\xeb\xa1\x9c \xec\xa0\x90\xed\x94\x84\xed\x95\x98\xeb\x84\xa4\xec\x9a\x94.\xe3\x85\xa1,,\xe3\x85\xa1',
+ 'url': u'http://www.clien.net/service/board/park/10730522'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:58:47',
+ 'hits': u'3',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xeb\x8c\x80\xed\x95\x9c\xeb\xaf\xbc\xea\xb5\xad\xec\x9d\x98 \xed\x96\xa5\xed\x9b\x84 \xec\xa0\x95\xec\xb9\x98 \xec\xa0\x84\xeb\xa7\x9d\xec\x9d\x80 \xec\x88\x98\xea\xbc\xb4\xec\x84\xb8\xeb\xa0\xa5\xec\x9d\xb4 \xeb\xac\xb4\xea\xb8\xb0\xeb\xa0\xa5\xed\x95\xa8\xec\x9d\x84 \xeb\x8a\x90\xeb\x81\xbc\xea\xb2\x8c \xeb\x90\xa0\xea\xb1\xb0\xeb\x9d\xbc \xeb\xb4\x85\xeb\x8b\x88\xeb\x8b\xa4.',
+ 'url': u'http://www.clien.net/service/board/park/10730521'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:53:50',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x9d\xb8\xed\x84\xb0\xeb\x84\xb7\xeb\xb0\xa9\xec\x86\xa1\xec\x9d\x80 \xeb\xb4\x90\xeb\x8f\x84 \xeb\xb4\x90\xeb\x8f\x84 \xec\x8b\xa0\xea\xb8\xb0\xed\x95\x98\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.clien.net/service/board/park/10730519'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:53:41',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xed\x8a\xb8\xeb\x9f\xbc\xed\x94\x84 \xed\x8a\xb9\xea\xb2\x80 \xec\xa3\xbc\xec\x9e\xa5\xed\x95\x98\xeb\x8a\x94 \xea\xb3\xb5\xed\x99\x94\xeb\x8b\xb9 \xec\x9d\x98\xec\x9b\x90\xeb\x93\xa4\xec\x9d\xb4 \xeb\x8a\x98\xec\x96\xb4\xeb\x82\x98\xea\xb8\xb0 \xec\x8b\x9c\xec\x9e\x91\xed\x96\x88\xeb\x8b\xa4.',
+ 'url': u'http://www.clien.net/service/board/park/10730518'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:52:20',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xeb\xac\xb4\xea\xb1\xb0\xec\x9a\xb4 \xeb\xa8\xb8\xeb\xa6\xac\xec\xb9\xb4\xeb\x9d\xbd.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730516'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:50:27',
+ 'hits': u'1',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xed\x86\xa0\xec\x9a\xb0 \xeb\xaf\xb8\xec\x82\xac\xec\x9d\xbc \xed\x94\xbc\xed\x95\x98\xeb\x8a\x94 \xeb\xb0\xa9\xeb\xb2\x95.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730515'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 01:47:00',
+ 'hits': 369,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\xb6\x80\xec\x82\xb0 \xeb\xb2\x94\xec\xb2\x9c\xeb\x8f\x99\xec\x97\x90\xec\x84\x9c C63AMG \xec\xb0\xa8\xeb\x9f\x89\xec\x9d\x84 \xeb\x8f\x84\xeb\x82\x9c\xeb\x8b\xb9\xed\x96\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261461&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 01:33:00',
+ 'hits': 241,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x97\xac\xea\xb8\xb0\xea\xb0\x80 \xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc\xec\x9d\xb8\xea\xb0\x80\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261460&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:59:00',
+ 'hits': 200,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\xb2\x95\xec\xaa\xbd\xec\x97\x90 \xec\x9e\x88\xec\x9c\xbc\xec\x8b\xac \xed\x98\x95\xeb\x8b\x98\xeb\x93\xa4..\xeb\x95\x8c\xec\x9d\xb8\xeb\x8f\x88\xec\x97\x90 \xea\xb4\x80\xed\x95\x9c \xec\xa1\xb0\xec\x96\xb8\xec\xa2\x80 \xeb\xb6\x80\xed\x83\x81\xeb\x93\x9c\xeb\xa6\xbd\xeb\x8b\x88\xeb\x8b\xa4.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261458&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:51:00',
+ 'hits': 395,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x9e\xac\xec\x9d\xb8\xec\x9d\xb4\xed\x98\x95\xec\x9d\xb4 \xea\xb2\xbd\xec\x9c\xa0\xea\xb0\x92 \xec\x98\xac\xeb\xa6\xb0\xeb\x8b\xa4\xeb\x8a\x94\xeb\x8d\xb0',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261457&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 283,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x82\xac\xea\xb3\xa0\xeb\x82\x9c \xec\xa4\x84 \xeb\xaa\xa8\xeb\xa5\xb4\xea\xb3\xa0 \xea\xb7\xb8\xeb\x83\xa5 \xec\x99\x94\xeb\x8a\x94\xeb\x8d\xb0 \xeb\xb8\x94\xeb\xb0\x95 \xeb\xb3\xb4\xeb\x8b\x88... \xeb\x92\xa4\xeb\xa1\x9c \xeb\xba\x90\xeb\x8d\x94\xeb\x9d\xbc\xea\xb5\xac\xec\x9a\x94;',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261456&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:29:00',
+ 'hits': 290,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x9d\xb4\xea\xb2\x8c\xeb\xad\x90\xeb\x83\x90\xe3\x85\x8b',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261455&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:19:00',
+ 'hits': 268,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\xb3\xb4\xeb\xb0\xb0\xed\x98\x95\xeb\x8b\x98\xeb\x93\xa4 \xec\x9e\x91\xec\x9d\x80 \xec\x87\xbc\xed\x95\x91\xeb\xaa\xb0 \xec\xb0\xbd\xec\x97\x85\xed\x95\xb4\xeb\xb3\xb4\xeb\xa0\xa4\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4.. \xec\xa1\xb0\xec\x96\xb8\xec\xa2\x80 \xeb\xb6\x80\xed\x83\x81\xeb\x93\x9c\xeb\xa0\xa4\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261454&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:15:00',
+ 'hits': 236,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x9b\x94\xea\xb8\x89\xeb\x82\xa0\xec\x9d\xb4\xeb\x84\xa4\xec\x9a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261453&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:13:00',
+ 'hits': 65,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x82\xac\xeb\x82\x98\xec\x9d\xb4\xeb\x8a\x94',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261452&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:47:50',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xec\x98\xa4\xeb\xb0\x94\xeb\xa7\x88 \xec\xa0\x84 \xeb\x8c\x80\xed\x86\xb5\xeb\xa0\xb9 \xec\x9c\x84\xec\x95\x88\xeb\xb6\x80 \xea\xb4\x80\xeb\xa0\xa8 \xec\x9e\x98\xeb\xaa\xbb \xec\x95\x8c\xea\xb3\xa0 \xea\xb3\x84\xec\x8b\x9c\xeb\x8a\x94\xeb\x8d\xb0',
+ 'url': u'http://www.clien.net/service/board/park/10730514'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-11 04:44:17',
+ 'hits': u'0',
+ 'source': '\xed\x81\xb4\xeb\xa6\xac\xec\x95\x99',
+ 'title': '\xeb\x8c\x80\xeb\xa5\x99 \xec\x82\xac\xea\xb7\xb9 \xea\xb7\xbc\xed\x99\xa9.gif',
+ 'url': u'http://www.clien.net/service/board/park/10730513'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:08:00',
+ 'hits': 458,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xeb\xa8\xb8\xed\x94\x8c\xeb\x9f\xac \xeb\xb6\x88\xeb\xb2\x95\xea\xb0\x9c\xec\xa1\xb0 \xec\x8b\xa0\xea\xb3\xa0\xed\x96\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4 \xea\xb7\xb8\xeb\x9f\xb0\xeb\x8d\xb0',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261451&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xeb in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:04:00',
+ 'hits': 142,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xea\xb5\xbf\xeb\x82\x98\xec\x9e\x87',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261450&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:03:00',
+ 'hits': 243,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xe3\x85\x86\xe3\x85\x82 \xec\xa0\x95\xec\x9d\x80\xec\x95\x84. \xed\x95\x98\xeb\x82\x98\xeb\xa7\x8c \xeb\xac\xbb\xec\x9e\x90.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261449&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe3 in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 159,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\xa3\x84\xec\x86\xa1\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4...',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261448&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 845,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xed\x9d\x94\xed\x95\x9c \xec\x93\xb0\xeb\xa6\xac \xec\x86\x94\xeb\xa1\x9c\xec\x9d\x98 \xeb\x8b\xa8\xed\x86\xa1\xeb\xb0\xa9,,,',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261447&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 83,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xea\xb5\xbf\xeb\x82\x98\xec\x9e\x87!',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261446&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 474,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x84\xa0\xeb\xac\xbc \xeb\xb0\x9b\xec\x9d\x80\xea\xb1\xb8 \xec\x9c\xa0\xea\xb2\x8c\xec\x97\x90 \xec\x98\xac\xeb\xa0\xb8\xeb\x84\xa4\xec\x9a\x94.',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261445&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 171,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x95\x84..',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261444&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.scraper] ERROR: Error processing {'category': 'free',
+ 'date': '2017-05-10 00:00:00',
+ 'hits': 175,
+ 'source': '\xeb\xb3\xb4\xeb\xb0\xb0\xeb\x93\x9c\xeb\xa6\xbc',
+ 'title': '\xec\x8b\xa0\xec\xb0\xa8 \xec\xa3\xbc\xed\x96\x89\xea\xb1\xb0\xeb\xa6\xac \xeb\xac\xb8\xec\x9d\x98',
+ 'url': u'http://www.bobaedream.co.kr/view?code=freeb&No=1261443&bm=1'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/svc/webapp/community/community/pipelines.py", line 18, in process_item
+    if word in unicode(item['title']):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 0: ordinal not in range(128)
+2017-05-10 21:00:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-10 21:00:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1880,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 33161,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/302': 3,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 10, 21, 0, 24, 746457),
+ 'item_scraped_count': 1,
+ 'log_count/ERROR': 59,
+ 'log_count/INFO': 7,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2017, 5, 10, 21, 0, 24, 406675)}
+2017-05-10 21:00:24 [scrapy.core.engine] INFO: Spider closed (finished)
