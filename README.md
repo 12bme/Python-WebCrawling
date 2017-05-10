@@ -185,6 +185,8 @@ Scrapy에 대한 전반적인 이야기, 사이트에서 실제 데이터를 가
    * 왠만해서 그런 크롤링안하는 것이 좋음
    * 크롤링할지 말지에 대한 선택은 robots.txt 파일 내용 확인
 
+크롤링은 적절히 delay를 주면 해당 사이트에 큰 무리를 주지 않을 수 있음
+
 #### 뽐뿌 robots.txt 예제(크롤링할때 딜레이를 1초 주는것을 권고)
 <pre>
 User-agent: *
@@ -224,6 +226,116 @@ User-Agent:*
 Disallow:/ 
 </pre>
 
+- - -
 
+## Scrapy 구조
+* Scrapy 실행 명령
+   * scrapy startproject "project name"
+
+* Scrapy 동작
+   * items 정의
+   * 스타트 url 지정(start_requests, start_urls), callback 함수 지정(parse())
+      * start_urls라는 url 리스트를 생성하는 방법 (스트링 리스트)
+      * start_requests를 정의하는 방법
+   * callback 함수 정의
+      * selector(xpath, css)를 이용하여 데이터 선택
+   * Pipeline을 이용하여 데이터를 필터링하거나 데이터베이스에 저장
+
+spiders 폴더 내부에 실제 크롤링하는 로직이 위치하게 됨.
+크롤링 대상 게시물들에 대한 게시물, 저작자, 제목, url 등을 items에 저장.
+items에 저장된 데이터 기반으로 pipe라인에서 DB에 넣을지,
+특별한 규칙에 의해 게시물을 필터링할것인지를 결정함
+
+settings.py 파일의 경우, pipelines의 순서를 결정하거나,
+로그 파일을 지정하고 로그파일 레벨도 지정 가능.
+
+scrapy.cfg는 전체 프로젝트 배포시 관련 설정들에 대한 나열.
+
+
+### Spiders
+* 크롤러의 이름 지정
+   * name
+* 스타트 url 지정
+   * start_urls
+      * 시작 주소를 리스트 형태로 추가 가능
+   * start_requests
+      * 콜백함수를 지정할 수 있음
+      * 사이트에 로그인할때 사용
+* 파서 정의
+   * def parse(self, response):
+
+### Selector
+* HTML 문서에 특정 노드를 선택하도록 지원하는 함수(쉽게)
+   * css vs xpath selector
+
+__특정 문자열 가져오기__
+<pre>
+$ response.xpath('//title/text()')
+[<Selector (text) xpath=//title/text()>]
+$ response.css('title::text')
+[<Selector (text) xpath=//title/text()>]
+
+$ response.xpath('//base/@href').extract()
+[u'http://example.com/']
+
+$ response.css('base::attr(href)').extract()
+[u'http://example.com/']
+
+$ response.xpath('//a[contains(@href, "image")]/@href').extract()
+[u'image1.html',
+ u'image2.html',
+ u'image3.html'.
+ u'image4.html',
+ u'image5.html']
+
+$ response.css('a[href*=image]::attr(href)').extract()
+[u'image1.html',
+ u'image2.html',
+ u'image3.html',
+ u'image4.html',
+ u'image5.html']
+
+$ response.xpath('//a[contains(@href, "image")]/imge/@src').extract()
+[u'image1_thumb.jpg',
+ u'image2_thumb.jpg',
+ u'image3_thumb.jpg',
+ u'image4_thumb.jpg',
+ u'image5_thumb.jpg']
+
+$ response.css('a[href*=image] img::attr(src)').extract()
+[u'image1_thumb.jpg',
+ u'image2_thumb.jpg',
+ u'image3_thumb.jpg',
+ u'image4_thumb.jpg',
+ u'image5_thumb.jpg']
+</pre>
+
+
+### Pipeline
+* 데이터를 크롤링한 이후에 특정 행동을 수행(크게 4가지 특성)
+   * 데이터의 유효성 검사
+   * 중복 체크
+   * 데이터베이스에 아이템 저장
+   * 필터링
+* settings.py
+   * 파이프 클래스 및 순서를 지정
+<pre>
+ITEM_PIPLINES = {
+	// '클래스명':우선순위(낮은게 먼저 실행됨)
+	'oneq.pipelines.CommunityPipeline':300,
+}
+</pre>
+
+
+### Logging
+* Settings.py
+   * LOG_FILE='logfile.log'
+   * LOG_LEVEL=logging.DEBUG
+* Log Level
+   1. logging.CRITICAL - for critical errors(highest severity)
+   2. logging.ERROR - for regular errors
+   3. logging.WARNING - for warning messages
+   4. logging.INFO - for informational messages
+   5. logging.DEBUG - for debugging messages (lowest severity)
 
 
